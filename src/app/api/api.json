@@ -1,0 +1,4612 @@
+{
+  "ads": [
+    {
+      "id": 1,
+      "title": "Обява 1",
+      "organizationName": "Орг",
+      "more": "Ще бъде одобрен потребител 1",
+      "userid": 1,
+      "status": "Активен",
+      "likes": 4,
+      "applays": [
+        {
+          "id": 2,
+          "username": "potrebitel1",
+          "email": "pot1@",
+          "name": "pot1",
+          "password": "pot",
+          "role": "Потребител",
+          "applays": []
+        },
+        {
+          "id": 3,
+          "username": "potrebitel2",
+          "email": "pot2@",
+          "name": "pot2",
+          "password": "pot",
+          "role": "Потребител",
+          "applays": [
+            {
+              "id": 2,
+              "title": "Обява 2",
+              "organizationName": "Моята организация",
+              "more": "Ще бъде одобрен потребител 2",
+              "userid": 1,
+              "status": "Активен",
+              "likes": 0,
+              "applays": [
+                {
+                  "id": 3,
+                  "username": "potrebitel2",
+                  "email": "pot2@",
+                  "name": "pot2",
+                  "password": "pot",
+                  "role": "Потребител",
+                  "applays": []
+                }
+              ],
+              "likesUserId": [
+                0
+              ],
+              "category": "Development",
+              "type": "full time"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "username": "potrebitel3",
+          "email": "pot3",
+          "name": "pot3",
+          "password": "pot",
+          "role": "Потребител",
+          "applays": [
+            {
+              "id": 2,
+              "title": "Обява 2",
+              "organizationName": "Моята организация",
+              "more": "Ще бъде одобрен потребител 2",
+              "userid": 1,
+              "status": "Активен",
+              "likes": 2,
+              "applays": [
+                {
+                  "id": 3,
+                  "username": "potrebitel2",
+                  "email": "pot2@",
+                  "name": "pot2",
+                  "password": "pot",
+                  "role": "Потребител",
+                  "applays": []
+                },
+                {
+                  "id": 4,
+                  "username": "potrebitel3",
+                  "email": "pot3",
+                  "name": "pot3",
+                  "password": "pot",
+                  "role": "Потребител",
+                  "applays": []
+                }
+              ],
+              "likesUserId": [
+                0,
+                3,
+                4
+              ],
+              "category": "Development",
+              "type": "full time",
+              "ApprovedUser": {
+                "id": 3,
+                "username": "potrebitel2",
+                "email": "pot2@",
+                "name": "pot2",
+                "password": "pot",
+                "role": "Потребител",
+                "applays": []
+              }
+            },
+            {
+              "id": 3,
+              "title": "Обява 3",
+              "organizationName": "Организация",
+              "more": "Ще бъде одобрен потребител 3",
+              "userid": 1,
+              "status": "Активен",
+              "likes": 1,
+              "applays": [
+                {
+                  "id": 2,
+                  "username": "potrebitel1",
+                  "email": "pot1@",
+                  "name": "pot1",
+                  "password": "pot",
+                  "role": "Потребител",
+                  "applays": [
+                    {
+                      "id": 1,
+                      "title": "Обява 1",
+                      "organizationName": "Орг",
+                      "more": "Ще бъде одобрен потребител 1",
+                      "userid": 1,
+                      "status": "Активен",
+                      "likes": 1,
+                      "applays": [
+                        {
+                          "id": 2,
+                          "username": "potrebitel1",
+                          "email": "pot1@",
+                          "name": "pot1",
+                          "password": "pot",
+                          "role": "Потребител",
+                          "applays": []
+                        }
+                      ],
+                      "likesUserId": [
+                        0,
+                        2
+                      ],
+                      "category": "Office",
+                      "type": "part-time"
+                    },
+                    {
+                      "id": 2,
+                      "title": "Обява 2",
+                      "organizationName": "Моята организация",
+                      "more": "Ще бъде одобрен потребител 2",
+                      "userid": 1,
+                      "status": "Активен",
+                      "likes": 0,
+                      "applays": [
+                        {
+                          "id": 2,
+                          "username": "potrebitel1",
+                          "email": "pot1@",
+                          "name": "pot1",
+                          "password": "pot",
+                          "role": "Потребител",
+                          "applays": [
+                            {
+                              "id": 1,
+                              "title": "Обява 1",
+                              "organizationName": "Орг",
+                              "more": "Ще бъде одобрен потребител 1",
+                              "userid": 1,
+                              "status": "Активен",
+                              "likes": 1,
+                              "applays": [
+                                {
+                                  "id": 2,
+                                  "username": "potrebitel1",
+                                  "email": "pot1@",
+                                  "name": "pot1",
+                                  "password": "pot",
+                                  "role": "Потребител",
+                                  "applays": []
+                                }
+                              ],
+                              "likesUserId": [
+                                0,
+                                2
+                              ],
+                              "category": "Office",
+                              "type": "part-time"
+                            }
+                          ]
+                        }
+                      ],
+                      "likesUserId": [
+                        0
+                      ],
+                      "category": "Development",
+                      "type": "full time"
+                    }
+                  ]
+                },
+                {
+                  "id": 4,
+                  "username": "potrebitel3",
+                  "email": "pot3",
+                  "name": "pot3",
+                  "password": "pot",
+                  "role": "Потребител",
+                  "applays": [
+                    {
+                      "id": 2,
+                      "title": "Обява 2",
+                      "organizationName": "Моята организация",
+                      "more": "Ще бъде одобрен потребител 2",
+                      "userid": 1,
+                      "status": "Активен",
+                      "likes": 2,
+                      "applays": [
+                        {
+                          "id": 3,
+                          "username": "potrebitel2",
+                          "email": "pot2@",
+                          "name": "pot2",
+                          "password": "pot",
+                          "role": "Потребител",
+                          "applays": []
+                        },
+                        {
+                          "id": 4,
+                          "username": "potrebitel3",
+                          "email": "pot3",
+                          "name": "pot3",
+                          "password": "pot",
+                          "role": "Потребител",
+                          "applays": []
+                        }
+                      ],
+                      "likesUserId": [
+                        0,
+                        3,
+                        4
+                      ],
+                      "category": "Development",
+                      "type": "full time",
+                      "ApprovedUser": {
+                        "id": 3,
+                        "username": "potrebitel2",
+                        "email": "pot2@",
+                        "name": "pot2",
+                        "password": "pot",
+                        "role": "Потребител",
+                        "applays": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "likesUserId": [
+                0,
+                4
+              ],
+              "category": "Development",
+              "type": "remote"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "username": "potrebitel4",
+          "email": "pot4",
+          "name": "pot4",
+          "password": "pot",
+          "role": "Потребител",
+          "applays": []
+        }
+      ],
+      "likesUserId": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "category": "Office",
+      "type": "part-time",
+      "ApprovedUser": {
+        "id": 2,
+        "username": "potrebitel1",
+        "email": "pot1@",
+        "name": "pot1",
+        "password": "pot",
+        "role": "Потребител",
+        "applays": []
+      }
+    },
+    {
+      "id": 2,
+      "title": "Обява 2",
+      "organizationName": "Моята организация",
+      "more": "Ще бъде одобрен потребител 2",
+      "userid": 1,
+      "status": "Активен",
+      "likes": 3,
+      "applays": [
+        {
+          "id": 3,
+          "username": "potrebitel2",
+          "email": "pot2@",
+          "name": "pot2",
+          "password": "pot",
+          "role": "Потребител",
+          "applays": []
+        },
+        {
+          "id": 4,
+          "username": "potrebitel3",
+          "email": "pot3",
+          "name": "pot3",
+          "password": "pot",
+          "role": "Потребител",
+          "applays": []
+        },
+        {
+          "id": 5,
+          "username": "potrebitel4",
+          "email": "pot4",
+          "name": "pot4",
+          "password": "pot",
+          "role": "Потребител",
+          "applays": [
+            {
+              "id": 1,
+              "title": "Обява 1",
+              "organizationName": "Орг",
+              "more": "Ще бъде одобрен потребител 1",
+              "userid": 1,
+              "status": "Активен",
+              "likes": 4,
+              "applays": [
+                {
+                  "id": 2,
+                  "username": "potrebitel1",
+                  "email": "pot1@",
+                  "name": "pot1",
+                  "password": "pot",
+                  "role": "Потребител",
+                  "applays": []
+                },
+                {
+                  "id": 3,
+                  "username": "potrebitel2",
+                  "email": "pot2@",
+                  "name": "pot2",
+                  "password": "pot",
+                  "role": "Потребител",
+                  "applays": [
+                    {
+                      "id": 2,
+                      "title": "Обява 2",
+                      "organizationName": "Моята организация",
+                      "more": "Ще бъде одобрен потребител 2",
+                      "userid": 1,
+                      "status": "Активен",
+                      "likes": 0,
+                      "applays": [
+                        {
+                          "id": 3,
+                          "username": "potrebitel2",
+                          "email": "pot2@",
+                          "name": "pot2",
+                          "password": "pot",
+                          "role": "Потребител",
+                          "applays": []
+                        }
+                      ],
+                      "likesUserId": [
+                        0
+                      ],
+                      "category": "Development",
+                      "type": "full time"
+                    }
+                  ]
+                },
+                {
+                  "id": 4,
+                  "username": "potrebitel3",
+                  "email": "pot3",
+                  "name": "pot3",
+                  "password": "pot",
+                  "role": "Потребител",
+                  "applays": [
+                    {
+                      "id": 2,
+                      "title": "Обява 2",
+                      "organizationName": "Моята организация",
+                      "more": "Ще бъде одобрен потребител 2",
+                      "userid": 1,
+                      "status": "Активен",
+                      "likes": 2,
+                      "applays": [
+                        {
+                          "id": 3,
+                          "username": "potrebitel2",
+                          "email": "pot2@",
+                          "name": "pot2",
+                          "password": "pot",
+                          "role": "Потребител",
+                          "applays": []
+                        },
+                        {
+                          "id": 4,
+                          "username": "potrebitel3",
+                          "email": "pot3",
+                          "name": "pot3",
+                          "password": "pot",
+                          "role": "Потребител",
+                          "applays": []
+                        }
+                      ],
+                      "likesUserId": [
+                        0,
+                        3,
+                        4
+                      ],
+                      "category": "Development",
+                      "type": "full time",
+                      "ApprovedUser": {
+                        "id": 3,
+                        "username": "potrebitel2",
+                        "email": "pot2@",
+                        "name": "pot2",
+                        "password": "pot",
+                        "role": "Потребител",
+                        "applays": []
+                      }
+                    },
+                    {
+                      "id": 3,
+                      "title": "Обява 3",
+                      "organizationName": "Организация",
+                      "more": "Ще бъде одобрен потребител 3",
+                      "userid": 1,
+                      "status": "Активен",
+                      "likes": 1,
+                      "applays": [
+                        {
+                          "id": 2,
+                          "username": "potrebitel1",
+                          "email": "pot1@",
+                          "name": "pot1",
+                          "password": "pot",
+                          "role": "Потребител",
+                          "applays": [
+                            {
+                              "id": 1,
+                              "title": "Обява 1",
+                              "organizationName": "Орг",
+                              "more": "Ще бъде одобрен потребител 1",
+                              "userid": 1,
+                              "status": "Активен",
+                              "likes": 1,
+                              "applays": [
+                                {
+                                  "id": 2,
+                                  "username": "potrebitel1",
+                                  "email": "pot1@",
+                                  "name": "pot1",
+                                  "password": "pot",
+                                  "role": "Потребител",
+                                  "applays": []
+                                }
+                              ],
+                              "likesUserId": [
+                                0,
+                                2
+                              ],
+                              "category": "Office",
+                              "type": "part-time"
+                            },
+                            {
+                              "id": 2,
+                              "title": "Обява 2",
+                              "organizationName": "Моята организация",
+                              "more": "Ще бъде одобрен потребител 2",
+                              "userid": 1,
+                              "status": "Активен",
+                              "likes": 0,
+                              "applays": [
+                                {
+                                  "id": 2,
+                                  "username": "potrebitel1",
+                                  "email": "pot1@",
+                                  "name": "pot1",
+                                  "password": "pot",
+                                  "role": "Потребител",
+                                  "applays": [
+                                    {
+                                      "id": 1,
+                                      "title": "Обява 1",
+                                      "organizationName": "Орг",
+                                      "more": "Ще бъде одобрен потребител 1",
+                                      "userid": 1,
+                                      "status": "Активен",
+                                      "likes": 1,
+                                      "applays": [
+                                        {
+                                          "id": 2,
+                                          "username": "potrebitel1",
+                                          "email": "pot1@",
+                                          "name": "pot1",
+                                          "password": "pot",
+                                          "role": "Потребител",
+                                          "applays": []
+                                        }
+                                      ],
+                                      "likesUserId": [
+                                        0,
+                                        2
+                                      ],
+                                      "category": "Office",
+                                      "type": "part-time"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "likesUserId": [
+                                0
+                              ],
+                              "category": "Development",
+                              "type": "full time"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 4,
+                          "username": "potrebitel3",
+                          "email": "pot3",
+                          "name": "pot3",
+                          "password": "pot",
+                          "role": "Потребител",
+                          "applays": [
+                            {
+                              "id": 2,
+                              "title": "Обява 2",
+                              "organizationName": "Моята организация",
+                              "more": "Ще бъде одобрен потребител 2",
+                              "userid": 1,
+                              "status": "Активен",
+                              "likes": 2,
+                              "applays": [
+                                {
+                                  "id": 3,
+                                  "username": "potrebitel2",
+                                  "email": "pot2@",
+                                  "name": "pot2",
+                                  "password": "pot",
+                                  "role": "Потребител",
+                                  "applays": []
+                                },
+                                {
+                                  "id": 4,
+                                  "username": "potrebitel3",
+                                  "email": "pot3",
+                                  "name": "pot3",
+                                  "password": "pot",
+                                  "role": "Потребител",
+                                  "applays": []
+                                }
+                              ],
+                              "likesUserId": [
+                                0,
+                                3,
+                                4
+                              ],
+                              "category": "Development",
+                              "type": "full time",
+                              "ApprovedUser": {
+                                "id": 3,
+                                "username": "potrebitel2",
+                                "email": "pot2@",
+                                "name": "pot2",
+                                "password": "pot",
+                                "role": "Потребител",
+                                "applays": []
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "likesUserId": [
+                        0,
+                        4
+                      ],
+                      "category": "Development",
+                      "type": "remote"
+                    }
+                  ]
+                },
+                {
+                  "id": 5,
+                  "username": "potrebitel4",
+                  "email": "pot4",
+                  "name": "pot4",
+                  "password": "pot",
+                  "role": "Потребител",
+                  "applays": []
+                }
+              ],
+              "likesUserId": [
+                0,
+                2,
+                3,
+                4,
+                5
+              ],
+              "category": "Office",
+              "type": "part-time",
+              "ApprovedUser": {
+                "id": 2,
+                "username": "potrebitel1",
+                "email": "pot1@",
+                "name": "pot1",
+                "password": "pot",
+                "role": "Потребител",
+                "applays": []
+              }
+            },
+            {
+              "id": 3,
+              "title": "Обява 3",
+              "organizationName": "Организация",
+              "more": "Ще бъде одобрен потребител 3",
+              "userid": 1,
+              "status": "Активен",
+              "likes": 1,
+              "applays": [
+                {
+                  "id": 2,
+                  "username": "potrebitel1",
+                  "email": "pot1@",
+                  "name": "pot1",
+                  "password": "pot",
+                  "role": "Потребител",
+                  "applays": [
+                    {
+                      "id": 1,
+                      "title": "Обява 1",
+                      "organizationName": "Орг",
+                      "more": "Ще бъде одобрен потребител 1",
+                      "userid": 1,
+                      "status": "Активен",
+                      "likes": 1,
+                      "applays": [
+                        {
+                          "id": 2,
+                          "username": "potrebitel1",
+                          "email": "pot1@",
+                          "name": "pot1",
+                          "password": "pot",
+                          "role": "Потребител",
+                          "applays": []
+                        }
+                      ],
+                      "likesUserId": [
+                        0,
+                        2
+                      ],
+                      "category": "Office",
+                      "type": "part-time"
+                    },
+                    {
+                      "id": 2,
+                      "title": "Обява 2",
+                      "organizationName": "Моята организация",
+                      "more": "Ще бъде одобрен потребител 2",
+                      "userid": 1,
+                      "status": "Активен",
+                      "likes": 0,
+                      "applays": [
+                        {
+                          "id": 2,
+                          "username": "potrebitel1",
+                          "email": "pot1@",
+                          "name": "pot1",
+                          "password": "pot",
+                          "role": "Потребител",
+                          "applays": [
+                            {
+                              "id": 1,
+                              "title": "Обява 1",
+                              "organizationName": "Орг",
+                              "more": "Ще бъде одобрен потребител 1",
+                              "userid": 1,
+                              "status": "Активен",
+                              "likes": 1,
+                              "applays": [
+                                {
+                                  "id": 2,
+                                  "username": "potrebitel1",
+                                  "email": "pot1@",
+                                  "name": "pot1",
+                                  "password": "pot",
+                                  "role": "Потребител",
+                                  "applays": []
+                                }
+                              ],
+                              "likesUserId": [
+                                0,
+                                2
+                              ],
+                              "category": "Office",
+                              "type": "part-time"
+                            }
+                          ]
+                        }
+                      ],
+                      "likesUserId": [
+                        0
+                      ],
+                      "category": "Development",
+                      "type": "full time"
+                    }
+                  ]
+                },
+                {
+                  "id": 4,
+                  "username": "potrebitel3",
+                  "email": "pot3",
+                  "name": "pot3",
+                  "password": "pot",
+                  "role": "Потребител",
+                  "applays": [
+                    {
+                      "id": 2,
+                      "title": "Обява 2",
+                      "organizationName": "Моята организация",
+                      "more": "Ще бъде одобрен потребител 2",
+                      "userid": 1,
+                      "status": "Активен",
+                      "likes": 2,
+                      "applays": [
+                        {
+                          "id": 3,
+                          "username": "potrebitel2",
+                          "email": "pot2@",
+                          "name": "pot2",
+                          "password": "pot",
+                          "role": "Потребител",
+                          "applays": []
+                        },
+                        {
+                          "id": 4,
+                          "username": "potrebitel3",
+                          "email": "pot3",
+                          "name": "pot3",
+                          "password": "pot",
+                          "role": "Потребител",
+                          "applays": []
+                        }
+                      ],
+                      "likesUserId": [
+                        0,
+                        3,
+                        4
+                      ],
+                      "category": "Development",
+                      "type": "full time",
+                      "ApprovedUser": {
+                        "id": 3,
+                        "username": "potrebitel2",
+                        "email": "pot2@",
+                        "name": "pot2",
+                        "password": "pot",
+                        "role": "Потребител",
+                        "applays": []
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "username": "potrebitel2",
+                  "email": "pot2@",
+                  "name": "pot2",
+                  "password": "pot",
+                  "role": "Потребител",
+                  "applays": [
+                    {
+                      "id": 2,
+                      "title": "Обява 2",
+                      "organizationName": "Моята организация",
+                      "more": "Ще бъде одобрен потребител 2",
+                      "userid": 1,
+                      "status": "Активен",
+                      "likes": 0,
+                      "applays": [
+                        {
+                          "id": 3,
+                          "username": "potrebitel2",
+                          "email": "pot2@",
+                          "name": "pot2",
+                          "password": "pot",
+                          "role": "Потребител",
+                          "applays": []
+                        }
+                      ],
+                      "likesUserId": [
+                        0
+                      ],
+                      "category": "Development",
+                      "type": "full time"
+                    },
+                    {
+                      "id": 1,
+                      "title": "Обява 1",
+                      "organizationName": "Орг",
+                      "more": "Ще бъде одобрен потребител 1",
+                      "userid": 1,
+                      "status": "Активен",
+                      "likes": 2,
+                      "applays": [
+                        {
+                          "id": 2,
+                          "username": "potrebitel1",
+                          "email": "pot1@",
+                          "name": "pot1",
+                          "password": "pot",
+                          "role": "Потребител",
+                          "applays": []
+                        },
+                        {
+                          "id": 3,
+                          "username": "potrebitel2",
+                          "email": "pot2@",
+                          "name": "pot2",
+                          "password": "pot",
+                          "role": "Потребител",
+                          "applays": [
+                            {
+                              "id": 2,
+                              "title": "Обява 2",
+                              "organizationName": "Моята организация",
+                              "more": "Ще бъде одобрен потребител 2",
+                              "userid": 1,
+                              "status": "Активен",
+                              "likes": 0,
+                              "applays": [
+                                {
+                                  "id": 3,
+                                  "username": "potrebitel2",
+                                  "email": "pot2@",
+                                  "name": "pot2",
+                                  "password": "pot",
+                                  "role": "Потребител",
+                                  "applays": []
+                                }
+                              ],
+                              "likesUserId": [
+                                0
+                              ],
+                              "category": "Development",
+                              "type": "full time"
+                            }
+                          ]
+                        }
+                      ],
+                      "likesUserId": [
+                        0,
+                        2,
+                        3
+                      ],
+                      "category": "Office",
+                      "type": "part-time"
+                    }
+                  ]
+                },
+                {
+                  "id": 5,
+                  "username": "potrebitel4",
+                  "email": "pot4",
+                  "name": "pot4",
+                  "password": "pot",
+                  "role": "Потребител",
+                  "applays": [
+                    {
+                      "id": 1,
+                      "title": "Обява 1",
+                      "organizationName": "Орг",
+                      "more": "Ще бъде одобрен потребител 1",
+                      "userid": 1,
+                      "status": "Активен",
+                      "likes": 4,
+                      "applays": [
+                        {
+                          "id": 2,
+                          "username": "potrebitel1",
+                          "email": "pot1@",
+                          "name": "pot1",
+                          "password": "pot",
+                          "role": "Потребител",
+                          "applays": []
+                        },
+                        {
+                          "id": 3,
+                          "username": "potrebitel2",
+                          "email": "pot2@",
+                          "name": "pot2",
+                          "password": "pot",
+                          "role": "Потребител",
+                          "applays": [
+                            {
+                              "id": 2,
+                              "title": "Обява 2",
+                              "organizationName": "Моята организация",
+                              "more": "Ще бъде одобрен потребител 2",
+                              "userid": 1,
+                              "status": "Активен",
+                              "likes": 0,
+                              "applays": [
+                                {
+                                  "id": 3,
+                                  "username": "potrebitel2",
+                                  "email": "pot2@",
+                                  "name": "pot2",
+                                  "password": "pot",
+                                  "role": "Потребител",
+                                  "applays": []
+                                }
+                              ],
+                              "likesUserId": [
+                                0
+                              ],
+                              "category": "Development",
+                              "type": "full time"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 4,
+                          "username": "potrebitel3",
+                          "email": "pot3",
+                          "name": "pot3",
+                          "password": "pot",
+                          "role": "Потребител",
+                          "applays": [
+                            {
+                              "id": 2,
+                              "title": "Обява 2",
+                              "organizationName": "Моята организация",
+                              "more": "Ще бъде одобрен потребител 2",
+                              "userid": 1,
+                              "status": "Активен",
+                              "likes": 2,
+                              "applays": [
+                                {
+                                  "id": 3,
+                                  "username": "potrebitel2",
+                                  "email": "pot2@",
+                                  "name": "pot2",
+                                  "password": "pot",
+                                  "role": "Потребител",
+                                  "applays": []
+                                },
+                                {
+                                  "id": 4,
+                                  "username": "potrebitel3",
+                                  "email": "pot3",
+                                  "name": "pot3",
+                                  "password": "pot",
+                                  "role": "Потребител",
+                                  "applays": []
+                                }
+                              ],
+                              "likesUserId": [
+                                0,
+                                3,
+                                4
+                              ],
+                              "category": "Development",
+                              "type": "full time",
+                              "ApprovedUser": {
+                                "id": 3,
+                                "username": "potrebitel2",
+                                "email": "pot2@",
+                                "name": "pot2",
+                                "password": "pot",
+                                "role": "Потребител",
+                                "applays": []
+                              }
+                            },
+                            {
+                              "id": 3,
+                              "title": "Обява 3",
+                              "organizationName": "Организация",
+                              "more": "Ще бъде одобрен потребител 3",
+                              "userid": 1,
+                              "status": "Активен",
+                              "likes": 1,
+                              "applays": [
+                                {
+                                  "id": 2,
+                                  "username": "potrebitel1",
+                                  "email": "pot1@",
+                                  "name": "pot1",
+                                  "password": "pot",
+                                  "role": "Потребител",
+                                  "applays": [
+                                    {
+                                      "id": 1,
+                                      "title": "Обява 1",
+                                      "organizationName": "Орг",
+                                      "more": "Ще бъде одобрен потребител 1",
+                                      "userid": 1,
+                                      "status": "Активен",
+                                      "likes": 1,
+                                      "applays": [
+                                        {
+                                          "id": 2,
+                                          "username": "potrebitel1",
+                                          "email": "pot1@",
+                                          "name": "pot1",
+                                          "password": "pot",
+                                          "role": "Потребител",
+                                          "applays": []
+                                        }
+                                      ],
+                                      "likesUserId": [
+                                        0,
+                                        2
+                                      ],
+                                      "category": "Office",
+                                      "type": "part-time"
+                                    },
+                                    {
+                                      "id": 2,
+                                      "title": "Обява 2",
+                                      "organizationName": "Моята организация",
+                                      "more": "Ще бъде одобрен потребител 2",
+                                      "userid": 1,
+                                      "status": "Активен",
+                                      "likes": 0,
+                                      "applays": [
+                                        {
+                                          "id": 2,
+                                          "username": "potrebitel1",
+                                          "email": "pot1@",
+                                          "name": "pot1",
+                                          "password": "pot",
+                                          "role": "Потребител",
+                                          "applays": [
+                                            {
+                                              "id": 1,
+                                              "title": "Обява 1",
+                                              "organizationName": "Орг",
+                                              "more": "Ще бъде одобрен потребител 1",
+                                              "userid": 1,
+                                              "status": "Активен",
+                                              "likes": 1,
+                                              "applays": [
+                                                {
+                                                  "id": 2,
+                                                  "username": "potrebitel1",
+                                                  "email": "pot1@",
+                                                  "name": "pot1",
+                                                  "password": "pot",
+                                                  "role": "Потребител",
+                                                  "applays": []
+                                                }
+                                              ],
+                                              "likesUserId": [
+                                                0,
+                                                2
+                                              ],
+                                              "category": "Office",
+                                              "type": "part-time"
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "likesUserId": [
+                                        0
+                                      ],
+                                      "category": "Development",
+                                      "type": "full time"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 4,
+                                  "username": "potrebitel3",
+                                  "email": "pot3",
+                                  "name": "pot3",
+                                  "password": "pot",
+                                  "role": "Потребител",
+                                  "applays": [
+                                    {
+                                      "id": 2,
+                                      "title": "Обява 2",
+                                      "organizationName": "Моята организация",
+                                      "more": "Ще бъде одобрен потребител 2",
+                                      "userid": 1,
+                                      "status": "Активен",
+                                      "likes": 2,
+                                      "applays": [
+                                        {
+                                          "id": 3,
+                                          "username": "potrebitel2",
+                                          "email": "pot2@",
+                                          "name": "pot2",
+                                          "password": "pot",
+                                          "role": "Потребител",
+                                          "applays": []
+                                        },
+                                        {
+                                          "id": 4,
+                                          "username": "potrebitel3",
+                                          "email": "pot3",
+                                          "name": "pot3",
+                                          "password": "pot",
+                                          "role": "Потребител",
+                                          "applays": []
+                                        }
+                                      ],
+                                      "likesUserId": [
+                                        0,
+                                        3,
+                                        4
+                                      ],
+                                      "category": "Development",
+                                      "type": "full time",
+                                      "ApprovedUser": {
+                                        "id": 3,
+                                        "username": "potrebitel2",
+                                        "email": "pot2@",
+                                        "name": "pot2",
+                                        "password": "pot",
+                                        "role": "Потребител",
+                                        "applays": []
+                                      }
+                                    }
+                                  ]
+                                }
+                              ],
+                              "likesUserId": [
+                                0,
+                                4
+                              ],
+                              "category": "Development",
+                              "type": "remote"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 5,
+                          "username": "potrebitel4",
+                          "email": "pot4",
+                          "name": "pot4",
+                          "password": "pot",
+                          "role": "Потребител",
+                          "applays": []
+                        }
+                      ],
+                      "likesUserId": [
+                        0,
+                        2,
+                        3,
+                        4,
+                        5
+                      ],
+                      "category": "Office",
+                      "type": "part-time",
+                      "ApprovedUser": {
+                        "id": 2,
+                        "username": "potrebitel1",
+                        "email": "pot1@",
+                        "name": "pot1",
+                        "password": "pot",
+                        "role": "Потребител",
+                        "applays": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "likesUserId": [
+                0,
+                4
+              ],
+              "category": "Development",
+              "type": "remote",
+              "ApprovedUser": {
+                "id": 4,
+                "username": "potrebitel3",
+                "email": "pot3",
+                "name": "pot3",
+                "password": "pot",
+                "role": "Потребител",
+                "applays": [
+                  {
+                    "id": 2,
+                    "title": "Обява 2",
+                    "organizationName": "Моята организация",
+                    "more": "Ще бъде одобрен потребител 2",
+                    "userid": 1,
+                    "status": "Активен",
+                    "likes": 2,
+                    "applays": [
+                      {
+                        "id": 3,
+                        "username": "potrebitel2",
+                        "email": "pot2@",
+                        "name": "pot2",
+                        "password": "pot",
+                        "role": "Потребител",
+                        "applays": []
+                      },
+                      {
+                        "id": 4,
+                        "username": "potrebitel3",
+                        "email": "pot3",
+                        "name": "pot3",
+                        "password": "pot",
+                        "role": "Потребител",
+                        "applays": []
+                      }
+                    ],
+                    "likesUserId": [
+                      0,
+                      3,
+                      4
+                    ],
+                    "category": "Development",
+                    "type": "full time",
+                    "ApprovedUser": {
+                      "id": 3,
+                      "username": "potrebitel2",
+                      "email": "pot2@",
+                      "name": "pot2",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "likesUserId": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "category": "Development",
+      "type": "full time",
+      "ApprovedUser": {
+        "id": 3,
+        "username": "potrebitel2",
+        "email": "pot2@",
+        "name": "pot2",
+        "password": "pot",
+        "role": "Потребител",
+        "applays": []
+      }
+    },
+    {
+      "id": 3,
+      "title": "Обява 3",
+      "organizationName": "Организация",
+      "more": "Ще бъде одобрен потребител 3",
+      "userid": 1,
+      "status": "Активен",
+      "likes": 1,
+      "applays": [
+        {
+          "id": 2,
+          "username": "potrebitel1",
+          "email": "pot1@",
+          "name": "pot1",
+          "password": "pot",
+          "role": "Потребител",
+          "applays": [
+            {
+              "id": 1,
+              "title": "Обява 1",
+              "organizationName": "Орг",
+              "more": "Ще бъде одобрен потребител 1",
+              "userid": 1,
+              "status": "Активен",
+              "likes": 1,
+              "applays": [
+                {
+                  "id": 2,
+                  "username": "potrebitel1",
+                  "email": "pot1@",
+                  "name": "pot1",
+                  "password": "pot",
+                  "role": "Потребител",
+                  "applays": []
+                }
+              ],
+              "likesUserId": [
+                0,
+                2
+              ],
+              "category": "Office",
+              "type": "part-time"
+            },
+            {
+              "id": 2,
+              "title": "Обява 2",
+              "organizationName": "Моята организация",
+              "more": "Ще бъде одобрен потребител 2",
+              "userid": 1,
+              "status": "Активен",
+              "likes": 0,
+              "applays": [
+                {
+                  "id": 2,
+                  "username": "potrebitel1",
+                  "email": "pot1@",
+                  "name": "pot1",
+                  "password": "pot",
+                  "role": "Потребител",
+                  "applays": [
+                    {
+                      "id": 1,
+                      "title": "Обява 1",
+                      "organizationName": "Орг",
+                      "more": "Ще бъде одобрен потребител 1",
+                      "userid": 1,
+                      "status": "Активен",
+                      "likes": 1,
+                      "applays": [
+                        {
+                          "id": 2,
+                          "username": "potrebitel1",
+                          "email": "pot1@",
+                          "name": "pot1",
+                          "password": "pot",
+                          "role": "Потребител",
+                          "applays": []
+                        }
+                      ],
+                      "likesUserId": [
+                        0,
+                        2
+                      ],
+                      "category": "Office",
+                      "type": "part-time"
+                    }
+                  ]
+                }
+              ],
+              "likesUserId": [
+                0
+              ],
+              "category": "Development",
+              "type": "full time"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "username": "potrebitel3",
+          "email": "pot3",
+          "name": "pot3",
+          "password": "pot",
+          "role": "Потребител",
+          "applays": [
+            {
+              "id": 2,
+              "title": "Обява 2",
+              "organizationName": "Моята организация",
+              "more": "Ще бъде одобрен потребител 2",
+              "userid": 1,
+              "status": "Активен",
+              "likes": 2,
+              "applays": [
+                {
+                  "id": 3,
+                  "username": "potrebitel2",
+                  "email": "pot2@",
+                  "name": "pot2",
+                  "password": "pot",
+                  "role": "Потребител",
+                  "applays": []
+                },
+                {
+                  "id": 4,
+                  "username": "potrebitel3",
+                  "email": "pot3",
+                  "name": "pot3",
+                  "password": "pot",
+                  "role": "Потребител",
+                  "applays": []
+                }
+              ],
+              "likesUserId": [
+                0,
+                3,
+                4
+              ],
+              "category": "Development",
+              "type": "full time",
+              "ApprovedUser": {
+                "id": 3,
+                "username": "potrebitel2",
+                "email": "pot2@",
+                "name": "pot2",
+                "password": "pot",
+                "role": "Потребител",
+                "applays": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "username": "potrebitel2",
+          "email": "pot2@",
+          "name": "pot2",
+          "password": "pot",
+          "role": "Потребител",
+          "applays": [
+            {
+              "id": 2,
+              "title": "Обява 2",
+              "organizationName": "Моята организация",
+              "more": "Ще бъде одобрен потребител 2",
+              "userid": 1,
+              "status": "Активен",
+              "likes": 0,
+              "applays": [
+                {
+                  "id": 3,
+                  "username": "potrebitel2",
+                  "email": "pot2@",
+                  "name": "pot2",
+                  "password": "pot",
+                  "role": "Потребител",
+                  "applays": []
+                }
+              ],
+              "likesUserId": [
+                0
+              ],
+              "category": "Development",
+              "type": "full time"
+            },
+            {
+              "id": 1,
+              "title": "Обява 1",
+              "organizationName": "Орг",
+              "more": "Ще бъде одобрен потребител 1",
+              "userid": 1,
+              "status": "Активен",
+              "likes": 2,
+              "applays": [
+                {
+                  "id": 2,
+                  "username": "potrebitel1",
+                  "email": "pot1@",
+                  "name": "pot1",
+                  "password": "pot",
+                  "role": "Потребител",
+                  "applays": []
+                },
+                {
+                  "id": 3,
+                  "username": "potrebitel2",
+                  "email": "pot2@",
+                  "name": "pot2",
+                  "password": "pot",
+                  "role": "Потребител",
+                  "applays": [
+                    {
+                      "id": 2,
+                      "title": "Обява 2",
+                      "organizationName": "Моята организация",
+                      "more": "Ще бъде одобрен потребител 2",
+                      "userid": 1,
+                      "status": "Активен",
+                      "likes": 0,
+                      "applays": [
+                        {
+                          "id": 3,
+                          "username": "potrebitel2",
+                          "email": "pot2@",
+                          "name": "pot2",
+                          "password": "pot",
+                          "role": "Потребител",
+                          "applays": []
+                        }
+                      ],
+                      "likesUserId": [
+                        0
+                      ],
+                      "category": "Development",
+                      "type": "full time"
+                    }
+                  ]
+                }
+              ],
+              "likesUserId": [
+                0,
+                2,
+                3
+              ],
+              "category": "Office",
+              "type": "part-time"
+            }
+          ]
+        }
+      ],
+      "likesUserId": [
+        0,
+        4
+      ],
+      "category": "Development",
+      "type": "remote",
+      "ApprovedUser": {
+        "id": 4,
+        "username": "potrebitel3",
+        "email": "pot3",
+        "name": "pot3",
+        "password": "pot",
+        "role": "Потребител",
+        "applays": [
+          {
+            "id": 2,
+            "title": "Обява 2",
+            "organizationName": "Моята организация",
+            "more": "Ще бъде одобрен потребител 2",
+            "userid": 1,
+            "status": "Активен",
+            "likes": 2,
+            "applays": [
+              {
+                "id": 3,
+                "username": "potrebitel2",
+                "email": "pot2@",
+                "name": "pot2",
+                "password": "pot",
+                "role": "Потребител",
+                "applays": []
+              },
+              {
+                "id": 4,
+                "username": "potrebitel3",
+                "email": "pot3",
+                "name": "pot3",
+                "password": "pot",
+                "role": "Потребител",
+                "applays": []
+              }
+            ],
+            "likesUserId": [
+              0,
+              3,
+              4
+            ],
+            "category": "Development",
+            "type": "full time",
+            "ApprovedUser": {
+              "id": 3,
+              "username": "potrebitel2",
+              "email": "pot2@",
+              "name": "pot2",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "Обява",
+      "organizationName": "Организация",
+      "more": "Ще изтрия организацията, от която създавам тази обява",
+      "userid": 5,
+      "status": "Неактивен",
+      "likes": 0,
+      "applays": [],
+      "likesUserId": [
+        0
+      ],
+      "category": "Office",
+      "type": "part-time"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "organizaciq",
+      "email": "org@",
+      "name": "org",
+      "password": "org",
+      "role": "Организация",
+      "applays": []
+    },
+    {
+      "id": 2,
+      "username": "potrebitel1",
+      "email": "pot1@",
+      "name": "pot1",
+      "password": "pot",
+      "role": "Потребител",
+      "applays": [
+        {
+          "id": 1,
+          "title": "Обява 1",
+          "organizationName": "Орг",
+          "more": "Ще бъде одобрен потребител 1",
+          "userid": 1,
+          "status": "Активен",
+          "likes": 1,
+          "applays": [
+            {
+              "id": 2,
+              "username": "potrebitel1",
+              "email": "pot1@",
+              "name": "pot1",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": []
+            }
+          ],
+          "likesUserId": [
+            0,
+            2
+          ],
+          "category": "Office",
+          "type": "part-time"
+        },
+        {
+          "id": 2,
+          "title": "Обява 2",
+          "organizationName": "Моята организация",
+          "more": "Ще бъде одобрен потребител 2",
+          "userid": 1,
+          "status": "Активен",
+          "likes": 0,
+          "applays": [
+            {
+              "id": 2,
+              "username": "potrebitel1",
+              "email": "pot1@",
+              "name": "pot1",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": [
+                {
+                  "id": 1,
+                  "title": "Обява 1",
+                  "organizationName": "Орг",
+                  "more": "Ще бъде одобрен потребител 1",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 1,
+                  "applays": [
+                    {
+                      "id": 2,
+                      "username": "potrebitel1",
+                      "email": "pot1@",
+                      "name": "pot1",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    }
+                  ],
+                  "likesUserId": [
+                    0,
+                    2
+                  ],
+                  "category": "Office",
+                  "type": "part-time"
+                }
+              ]
+            }
+          ],
+          "likesUserId": [
+            0
+          ],
+          "category": "Development",
+          "type": "full time"
+        },
+        {
+          "id": 3,
+          "title": "Обява 3",
+          "organizationName": "Организация",
+          "more": "Ще бъде одобрен потребител 3",
+          "userid": 1,
+          "status": "Активен",
+          "likes": 0,
+          "applays": [
+            {
+              "id": 2,
+              "username": "potrebitel1",
+              "email": "pot1@",
+              "name": "pot1",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": [
+                {
+                  "id": 1,
+                  "title": "Обява 1",
+                  "organizationName": "Орг",
+                  "more": "Ще бъде одобрен потребител 1",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 1,
+                  "applays": [
+                    {
+                      "id": 2,
+                      "username": "potrebitel1",
+                      "email": "pot1@",
+                      "name": "pot1",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    }
+                  ],
+                  "likesUserId": [
+                    0,
+                    2
+                  ],
+                  "category": "Office",
+                  "type": "part-time"
+                },
+                {
+                  "id": 2,
+                  "title": "Обява 2",
+                  "organizationName": "Моята организация",
+                  "more": "Ще бъде одобрен потребител 2",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 0,
+                  "applays": [
+                    {
+                      "id": 2,
+                      "username": "potrebitel1",
+                      "email": "pot1@",
+                      "name": "pot1",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": [
+                        {
+                          "id": 1,
+                          "title": "Обява 1",
+                          "organizationName": "Орг",
+                          "more": "Ще бъде одобрен потребител 1",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 1,
+                          "applays": [
+                            {
+                              "id": 2,
+                              "username": "potrebitel1",
+                              "email": "pot1@",
+                              "name": "pot1",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            }
+                          ],
+                          "likesUserId": [
+                            0,
+                            2
+                          ],
+                          "category": "Office",
+                          "type": "part-time"
+                        }
+                      ]
+                    }
+                  ],
+                  "likesUserId": [
+                    0
+                  ],
+                  "category": "Development",
+                  "type": "full time"
+                }
+              ]
+            }
+          ],
+          "likesUserId": [
+            0
+          ],
+          "category": "Development",
+          "type": "remote"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "username": "potrebitel2",
+      "email": "pot2@",
+      "name": "pot2",
+      "password": "pot",
+      "role": "Потребител",
+      "applays": [
+        {
+          "id": 2,
+          "title": "Обява 2",
+          "organizationName": "Моята организация",
+          "more": "Ще бъде одобрен потребител 2",
+          "userid": 1,
+          "status": "Активен",
+          "likes": 0,
+          "applays": [
+            {
+              "id": 3,
+              "username": "potrebitel2",
+              "email": "pot2@",
+              "name": "pot2",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": []
+            }
+          ],
+          "likesUserId": [
+            0
+          ],
+          "category": "Development",
+          "type": "full time"
+        },
+        {
+          "id": 1,
+          "title": "Обява 1",
+          "organizationName": "Орг",
+          "more": "Ще бъде одобрен потребител 1",
+          "userid": 1,
+          "status": "Активен",
+          "likes": 2,
+          "applays": [
+            {
+              "id": 2,
+              "username": "potrebitel1",
+              "email": "pot1@",
+              "name": "pot1",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": []
+            },
+            {
+              "id": 3,
+              "username": "potrebitel2",
+              "email": "pot2@",
+              "name": "pot2",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": [
+                {
+                  "id": 2,
+                  "title": "Обява 2",
+                  "organizationName": "Моята организация",
+                  "more": "Ще бъде одобрен потребител 2",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 0,
+                  "applays": [
+                    {
+                      "id": 3,
+                      "username": "potrebitel2",
+                      "email": "pot2@",
+                      "name": "pot2",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    }
+                  ],
+                  "likesUserId": [
+                    0
+                  ],
+                  "category": "Development",
+                  "type": "full time"
+                }
+              ]
+            }
+          ],
+          "likesUserId": [
+            0,
+            2,
+            3
+          ],
+          "category": "Office",
+          "type": "part-time"
+        },
+        {
+          "id": 3,
+          "title": "Обява 3",
+          "organizationName": "Организация",
+          "more": "Ще бъде одобрен потребител 3",
+          "userid": 1,
+          "status": "Активен",
+          "likes": 1,
+          "applays": [
+            {
+              "id": 2,
+              "username": "potrebitel1",
+              "email": "pot1@",
+              "name": "pot1",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": [
+                {
+                  "id": 1,
+                  "title": "Обява 1",
+                  "organizationName": "Орг",
+                  "more": "Ще бъде одобрен потребител 1",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 1,
+                  "applays": [
+                    {
+                      "id": 2,
+                      "username": "potrebitel1",
+                      "email": "pot1@",
+                      "name": "pot1",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    }
+                  ],
+                  "likesUserId": [
+                    0,
+                    2
+                  ],
+                  "category": "Office",
+                  "type": "part-time"
+                },
+                {
+                  "id": 2,
+                  "title": "Обява 2",
+                  "organizationName": "Моята организация",
+                  "more": "Ще бъде одобрен потребител 2",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 0,
+                  "applays": [
+                    {
+                      "id": 2,
+                      "username": "potrebitel1",
+                      "email": "pot1@",
+                      "name": "pot1",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": [
+                        {
+                          "id": 1,
+                          "title": "Обява 1",
+                          "organizationName": "Орг",
+                          "more": "Ще бъде одобрен потребител 1",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 1,
+                          "applays": [
+                            {
+                              "id": 2,
+                              "username": "potrebitel1",
+                              "email": "pot1@",
+                              "name": "pot1",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            }
+                          ],
+                          "likesUserId": [
+                            0,
+                            2
+                          ],
+                          "category": "Office",
+                          "type": "part-time"
+                        }
+                      ]
+                    }
+                  ],
+                  "likesUserId": [
+                    0
+                  ],
+                  "category": "Development",
+                  "type": "full time"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "username": "potrebitel3",
+              "email": "pot3",
+              "name": "pot3",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": [
+                {
+                  "id": 2,
+                  "title": "Обява 2",
+                  "organizationName": "Моята организация",
+                  "more": "Ще бъде одобрен потребител 2",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 2,
+                  "applays": [
+                    {
+                      "id": 3,
+                      "username": "potrebitel2",
+                      "email": "pot2@",
+                      "name": "pot2",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    },
+                    {
+                      "id": 4,
+                      "username": "potrebitel3",
+                      "email": "pot3",
+                      "name": "pot3",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    }
+                  ],
+                  "likesUserId": [
+                    0,
+                    3,
+                    4
+                  ],
+                  "category": "Development",
+                  "type": "full time",
+                  "ApprovedUser": {
+                    "id": 3,
+                    "username": "potrebitel2",
+                    "email": "pot2@",
+                    "name": "pot2",
+                    "password": "pot",
+                    "role": "Потребител",
+                    "applays": []
+                  }
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "username": "potrebitel2",
+              "email": "pot2@",
+              "name": "pot2",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": [
+                {
+                  "id": 2,
+                  "title": "Обява 2",
+                  "organizationName": "Моята организация",
+                  "more": "Ще бъде одобрен потребител 2",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 0,
+                  "applays": [
+                    {
+                      "id": 3,
+                      "username": "potrebitel2",
+                      "email": "pot2@",
+                      "name": "pot2",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    }
+                  ],
+                  "likesUserId": [
+                    0
+                  ],
+                  "category": "Development",
+                  "type": "full time"
+                },
+                {
+                  "id": 1,
+                  "title": "Обява 1",
+                  "organizationName": "Орг",
+                  "more": "Ще бъде одобрен потребител 1",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 2,
+                  "applays": [
+                    {
+                      "id": 2,
+                      "username": "potrebitel1",
+                      "email": "pot1@",
+                      "name": "pot1",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    },
+                    {
+                      "id": 3,
+                      "username": "potrebitel2",
+                      "email": "pot2@",
+                      "name": "pot2",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": [
+                        {
+                          "id": 2,
+                          "title": "Обява 2",
+                          "organizationName": "Моята организация",
+                          "more": "Ще бъде одобрен потребител 2",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 0,
+                          "applays": [
+                            {
+                              "id": 3,
+                              "username": "potrebitel2",
+                              "email": "pot2@",
+                              "name": "pot2",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            }
+                          ],
+                          "likesUserId": [
+                            0
+                          ],
+                          "category": "Development",
+                          "type": "full time"
+                        }
+                      ]
+                    }
+                  ],
+                  "likesUserId": [
+                    0,
+                    2,
+                    3
+                  ],
+                  "category": "Office",
+                  "type": "part-time"
+                }
+              ]
+            }
+          ],
+          "likesUserId": [
+            0,
+            4
+          ],
+          "category": "Development",
+          "type": "remote",
+          "ApprovedUser": {
+            "id": 4,
+            "username": "potrebitel3",
+            "email": "pot3",
+            "name": "pot3",
+            "password": "pot",
+            "role": "Потребител",
+            "applays": [
+              {
+                "id": 2,
+                "title": "Обява 2",
+                "organizationName": "Моята организация",
+                "more": "Ще бъде одобрен потребител 2",
+                "userid": 1,
+                "status": "Активен",
+                "likes": 2,
+                "applays": [
+                  {
+                    "id": 3,
+                    "username": "potrebitel2",
+                    "email": "pot2@",
+                    "name": "pot2",
+                    "password": "pot",
+                    "role": "Потребител",
+                    "applays": []
+                  },
+                  {
+                    "id": 4,
+                    "username": "potrebitel3",
+                    "email": "pot3",
+                    "name": "pot3",
+                    "password": "pot",
+                    "role": "Потребител",
+                    "applays": []
+                  }
+                ],
+                "likesUserId": [
+                  0,
+                  3,
+                  4
+                ],
+                "category": "Development",
+                "type": "full time",
+                "ApprovedUser": {
+                  "id": 3,
+                  "username": "potrebitel2",
+                  "email": "pot2@",
+                  "name": "pot2",
+                  "password": "pot",
+                  "role": "Потребител",
+                  "applays": []
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "username": "potrebitel3",
+      "email": "pot3",
+      "name": "pot3",
+      "password": "pot",
+      "role": "Потребител",
+      "applays": [
+        {
+          "id": 2,
+          "title": "Обява 2",
+          "organizationName": "Моята организация",
+          "more": "Ще бъде одобрен потребител 2",
+          "userid": 1,
+          "status": "Активен",
+          "likes": 2,
+          "applays": [
+            {
+              "id": 3,
+              "username": "potrebitel2",
+              "email": "pot2@",
+              "name": "pot2",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": []
+            },
+            {
+              "id": 4,
+              "username": "potrebitel3",
+              "email": "pot3",
+              "name": "pot3",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": []
+            }
+          ],
+          "likesUserId": [
+            0,
+            3,
+            4
+          ],
+          "category": "Development",
+          "type": "full time",
+          "ApprovedUser": {
+            "id": 3,
+            "username": "potrebitel2",
+            "email": "pot2@",
+            "name": "pot2",
+            "password": "pot",
+            "role": "Потребител",
+            "applays": []
+          }
+        },
+        {
+          "id": 3,
+          "title": "Обява 3",
+          "organizationName": "Организация",
+          "more": "Ще бъде одобрен потребител 3",
+          "userid": 1,
+          "status": "Активен",
+          "likes": 1,
+          "applays": [
+            {
+              "id": 2,
+              "username": "potrebitel1",
+              "email": "pot1@",
+              "name": "pot1",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": [
+                {
+                  "id": 1,
+                  "title": "Обява 1",
+                  "organizationName": "Орг",
+                  "more": "Ще бъде одобрен потребител 1",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 1,
+                  "applays": [
+                    {
+                      "id": 2,
+                      "username": "potrebitel1",
+                      "email": "pot1@",
+                      "name": "pot1",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    }
+                  ],
+                  "likesUserId": [
+                    0,
+                    2
+                  ],
+                  "category": "Office",
+                  "type": "part-time"
+                },
+                {
+                  "id": 2,
+                  "title": "Обява 2",
+                  "organizationName": "Моята организация",
+                  "more": "Ще бъде одобрен потребител 2",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 0,
+                  "applays": [
+                    {
+                      "id": 2,
+                      "username": "potrebitel1",
+                      "email": "pot1@",
+                      "name": "pot1",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": [
+                        {
+                          "id": 1,
+                          "title": "Обява 1",
+                          "organizationName": "Орг",
+                          "more": "Ще бъде одобрен потребител 1",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 1,
+                          "applays": [
+                            {
+                              "id": 2,
+                              "username": "potrebitel1",
+                              "email": "pot1@",
+                              "name": "pot1",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            }
+                          ],
+                          "likesUserId": [
+                            0,
+                            2
+                          ],
+                          "category": "Office",
+                          "type": "part-time"
+                        }
+                      ]
+                    }
+                  ],
+                  "likesUserId": [
+                    0
+                  ],
+                  "category": "Development",
+                  "type": "full time"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "username": "potrebitel3",
+              "email": "pot3",
+              "name": "pot3",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": [
+                {
+                  "id": 2,
+                  "title": "Обява 2",
+                  "organizationName": "Моята организация",
+                  "more": "Ще бъде одобрен потребител 2",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 2,
+                  "applays": [
+                    {
+                      "id": 3,
+                      "username": "potrebitel2",
+                      "email": "pot2@",
+                      "name": "pot2",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    },
+                    {
+                      "id": 4,
+                      "username": "potrebitel3",
+                      "email": "pot3",
+                      "name": "pot3",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    }
+                  ],
+                  "likesUserId": [
+                    0,
+                    3,
+                    4
+                  ],
+                  "category": "Development",
+                  "type": "full time",
+                  "ApprovedUser": {
+                    "id": 3,
+                    "username": "potrebitel2",
+                    "email": "pot2@",
+                    "name": "pot2",
+                    "password": "pot",
+                    "role": "Потребител",
+                    "applays": []
+                  }
+                }
+              ]
+            }
+          ],
+          "likesUserId": [
+            0,
+            4
+          ],
+          "category": "Development",
+          "type": "remote"
+        },
+        {
+          "id": 1,
+          "title": "Обява 1",
+          "organizationName": "Орг",
+          "more": "Ще бъде одобрен потребител 1",
+          "userid": 1,
+          "status": "Активен",
+          "likes": 3,
+          "applays": [
+            {
+              "id": 2,
+              "username": "potrebitel1",
+              "email": "pot1@",
+              "name": "pot1",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": []
+            },
+            {
+              "id": 3,
+              "username": "potrebitel2",
+              "email": "pot2@",
+              "name": "pot2",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": [
+                {
+                  "id": 2,
+                  "title": "Обява 2",
+                  "organizationName": "Моята организация",
+                  "more": "Ще бъде одобрен потребител 2",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 0,
+                  "applays": [
+                    {
+                      "id": 3,
+                      "username": "potrebitel2",
+                      "email": "pot2@",
+                      "name": "pot2",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    }
+                  ],
+                  "likesUserId": [
+                    0
+                  ],
+                  "category": "Development",
+                  "type": "full time"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "username": "potrebitel3",
+              "email": "pot3",
+              "name": "pot3",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": [
+                {
+                  "id": 2,
+                  "title": "Обява 2",
+                  "organizationName": "Моята организация",
+                  "more": "Ще бъде одобрен потребител 2",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 2,
+                  "applays": [
+                    {
+                      "id": 3,
+                      "username": "potrebitel2",
+                      "email": "pot2@",
+                      "name": "pot2",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    },
+                    {
+                      "id": 4,
+                      "username": "potrebitel3",
+                      "email": "pot3",
+                      "name": "pot3",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    }
+                  ],
+                  "likesUserId": [
+                    0,
+                    3,
+                    4
+                  ],
+                  "category": "Development",
+                  "type": "full time",
+                  "ApprovedUser": {
+                    "id": 3,
+                    "username": "potrebitel2",
+                    "email": "pot2@",
+                    "name": "pot2",
+                    "password": "pot",
+                    "role": "Потребител",
+                    "applays": []
+                  }
+                },
+                {
+                  "id": 3,
+                  "title": "Обява 3",
+                  "organizationName": "Организация",
+                  "more": "Ще бъде одобрен потребител 3",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 1,
+                  "applays": [
+                    {
+                      "id": 2,
+                      "username": "potrebitel1",
+                      "email": "pot1@",
+                      "name": "pot1",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": [
+                        {
+                          "id": 1,
+                          "title": "Обява 1",
+                          "organizationName": "Орг",
+                          "more": "Ще бъде одобрен потребител 1",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 1,
+                          "applays": [
+                            {
+                              "id": 2,
+                              "username": "potrebitel1",
+                              "email": "pot1@",
+                              "name": "pot1",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            }
+                          ],
+                          "likesUserId": [
+                            0,
+                            2
+                          ],
+                          "category": "Office",
+                          "type": "part-time"
+                        },
+                        {
+                          "id": 2,
+                          "title": "Обява 2",
+                          "organizationName": "Моята организация",
+                          "more": "Ще бъде одобрен потребител 2",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 0,
+                          "applays": [
+                            {
+                              "id": 2,
+                              "username": "potrebitel1",
+                              "email": "pot1@",
+                              "name": "pot1",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": [
+                                {
+                                  "id": 1,
+                                  "title": "Обява 1",
+                                  "organizationName": "Орг",
+                                  "more": "Ще бъде одобрен потребител 1",
+                                  "userid": 1,
+                                  "status": "Активен",
+                                  "likes": 1,
+                                  "applays": [
+                                    {
+                                      "id": 2,
+                                      "username": "potrebitel1",
+                                      "email": "pot1@",
+                                      "name": "pot1",
+                                      "password": "pot",
+                                      "role": "Потребител",
+                                      "applays": []
+                                    }
+                                  ],
+                                  "likesUserId": [
+                                    0,
+                                    2
+                                  ],
+                                  "category": "Office",
+                                  "type": "part-time"
+                                }
+                              ]
+                            }
+                          ],
+                          "likesUserId": [
+                            0
+                          ],
+                          "category": "Development",
+                          "type": "full time"
+                        }
+                      ]
+                    },
+                    {
+                      "id": 4,
+                      "username": "potrebitel3",
+                      "email": "pot3",
+                      "name": "pot3",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": [
+                        {
+                          "id": 2,
+                          "title": "Обява 2",
+                          "organizationName": "Моята организация",
+                          "more": "Ще бъде одобрен потребител 2",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 2,
+                          "applays": [
+                            {
+                              "id": 3,
+                              "username": "potrebitel2",
+                              "email": "pot2@",
+                              "name": "pot2",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            },
+                            {
+                              "id": 4,
+                              "username": "potrebitel3",
+                              "email": "pot3",
+                              "name": "pot3",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            }
+                          ],
+                          "likesUserId": [
+                            0,
+                            3,
+                            4
+                          ],
+                          "category": "Development",
+                          "type": "full time",
+                          "ApprovedUser": {
+                            "id": 3,
+                            "username": "potrebitel2",
+                            "email": "pot2@",
+                            "name": "pot2",
+                            "password": "pot",
+                            "role": "Потребител",
+                            "applays": []
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "likesUserId": [
+                    0,
+                    4
+                  ],
+                  "category": "Development",
+                  "type": "remote"
+                }
+              ]
+            }
+          ],
+          "likesUserId": [
+            0,
+            2,
+            3,
+            4
+          ],
+          "category": "Office",
+          "type": "part-time",
+          "ApprovedUser": {
+            "id": 2,
+            "username": "potrebitel1",
+            "email": "pot1@",
+            "name": "pot1",
+            "password": "pot",
+            "role": "Потребител",
+            "applays": []
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "username": "potrebitel4",
+      "email": "pot4",
+      "name": "pot4",
+      "password": "pot",
+      "role": "Потребител",
+      "applays": [
+        {
+          "id": 1,
+          "title": "Обява 1",
+          "organizationName": "Орг",
+          "more": "Ще бъде одобрен потребител 1",
+          "userid": 1,
+          "status": "Активен",
+          "likes": 4,
+          "applays": [
+            {
+              "id": 2,
+              "username": "potrebitel1",
+              "email": "pot1@",
+              "name": "pot1",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": []
+            },
+            {
+              "id": 3,
+              "username": "potrebitel2",
+              "email": "pot2@",
+              "name": "pot2",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": [
+                {
+                  "id": 2,
+                  "title": "Обява 2",
+                  "organizationName": "Моята организация",
+                  "more": "Ще бъде одобрен потребител 2",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 0,
+                  "applays": [
+                    {
+                      "id": 3,
+                      "username": "potrebitel2",
+                      "email": "pot2@",
+                      "name": "pot2",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    }
+                  ],
+                  "likesUserId": [
+                    0
+                  ],
+                  "category": "Development",
+                  "type": "full time"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "username": "potrebitel3",
+              "email": "pot3",
+              "name": "pot3",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": [
+                {
+                  "id": 2,
+                  "title": "Обява 2",
+                  "organizationName": "Моята организация",
+                  "more": "Ще бъде одобрен потребител 2",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 2,
+                  "applays": [
+                    {
+                      "id": 3,
+                      "username": "potrebitel2",
+                      "email": "pot2@",
+                      "name": "pot2",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    },
+                    {
+                      "id": 4,
+                      "username": "potrebitel3",
+                      "email": "pot3",
+                      "name": "pot3",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    }
+                  ],
+                  "likesUserId": [
+                    0,
+                    3,
+                    4
+                  ],
+                  "category": "Development",
+                  "type": "full time",
+                  "ApprovedUser": {
+                    "id": 3,
+                    "username": "potrebitel2",
+                    "email": "pot2@",
+                    "name": "pot2",
+                    "password": "pot",
+                    "role": "Потребител",
+                    "applays": []
+                  }
+                },
+                {
+                  "id": 3,
+                  "title": "Обява 3",
+                  "organizationName": "Организация",
+                  "more": "Ще бъде одобрен потребител 3",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 1,
+                  "applays": [
+                    {
+                      "id": 2,
+                      "username": "potrebitel1",
+                      "email": "pot1@",
+                      "name": "pot1",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": [
+                        {
+                          "id": 1,
+                          "title": "Обява 1",
+                          "organizationName": "Орг",
+                          "more": "Ще бъде одобрен потребител 1",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 1,
+                          "applays": [
+                            {
+                              "id": 2,
+                              "username": "potrebitel1",
+                              "email": "pot1@",
+                              "name": "pot1",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            }
+                          ],
+                          "likesUserId": [
+                            0,
+                            2
+                          ],
+                          "category": "Office",
+                          "type": "part-time"
+                        },
+                        {
+                          "id": 2,
+                          "title": "Обява 2",
+                          "organizationName": "Моята организация",
+                          "more": "Ще бъде одобрен потребител 2",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 0,
+                          "applays": [
+                            {
+                              "id": 2,
+                              "username": "potrebitel1",
+                              "email": "pot1@",
+                              "name": "pot1",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": [
+                                {
+                                  "id": 1,
+                                  "title": "Обява 1",
+                                  "organizationName": "Орг",
+                                  "more": "Ще бъде одобрен потребител 1",
+                                  "userid": 1,
+                                  "status": "Активен",
+                                  "likes": 1,
+                                  "applays": [
+                                    {
+                                      "id": 2,
+                                      "username": "potrebitel1",
+                                      "email": "pot1@",
+                                      "name": "pot1",
+                                      "password": "pot",
+                                      "role": "Потребител",
+                                      "applays": []
+                                    }
+                                  ],
+                                  "likesUserId": [
+                                    0,
+                                    2
+                                  ],
+                                  "category": "Office",
+                                  "type": "part-time"
+                                }
+                              ]
+                            }
+                          ],
+                          "likesUserId": [
+                            0
+                          ],
+                          "category": "Development",
+                          "type": "full time"
+                        }
+                      ]
+                    },
+                    {
+                      "id": 4,
+                      "username": "potrebitel3",
+                      "email": "pot3",
+                      "name": "pot3",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": [
+                        {
+                          "id": 2,
+                          "title": "Обява 2",
+                          "organizationName": "Моята организация",
+                          "more": "Ще бъде одобрен потребител 2",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 2,
+                          "applays": [
+                            {
+                              "id": 3,
+                              "username": "potrebitel2",
+                              "email": "pot2@",
+                              "name": "pot2",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            },
+                            {
+                              "id": 4,
+                              "username": "potrebitel3",
+                              "email": "pot3",
+                              "name": "pot3",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            }
+                          ],
+                          "likesUserId": [
+                            0,
+                            3,
+                            4
+                          ],
+                          "category": "Development",
+                          "type": "full time",
+                          "ApprovedUser": {
+                            "id": 3,
+                            "username": "potrebitel2",
+                            "email": "pot2@",
+                            "name": "pot2",
+                            "password": "pot",
+                            "role": "Потребител",
+                            "applays": []
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "likesUserId": [
+                    0,
+                    4
+                  ],
+                  "category": "Development",
+                  "type": "remote"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "username": "potrebitel4",
+              "email": "pot4",
+              "name": "pot4",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": []
+            }
+          ],
+          "likesUserId": [
+            0,
+            2,
+            3,
+            4,
+            5
+          ],
+          "category": "Office",
+          "type": "part-time",
+          "ApprovedUser": {
+            "id": 2,
+            "username": "potrebitel1",
+            "email": "pot1@",
+            "name": "pot1",
+            "password": "pot",
+            "role": "Потребител",
+            "applays": []
+          }
+        },
+        {
+          "id": 3,
+          "title": "Обява 3",
+          "organizationName": "Организация",
+          "more": "Ще бъде одобрен потребител 3",
+          "userid": 1,
+          "status": "Активен",
+          "likes": 1,
+          "applays": [
+            {
+              "id": 2,
+              "username": "potrebitel1",
+              "email": "pot1@",
+              "name": "pot1",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": [
+                {
+                  "id": 1,
+                  "title": "Обява 1",
+                  "organizationName": "Орг",
+                  "more": "Ще бъде одобрен потребител 1",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 1,
+                  "applays": [
+                    {
+                      "id": 2,
+                      "username": "potrebitel1",
+                      "email": "pot1@",
+                      "name": "pot1",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    }
+                  ],
+                  "likesUserId": [
+                    0,
+                    2
+                  ],
+                  "category": "Office",
+                  "type": "part-time"
+                },
+                {
+                  "id": 2,
+                  "title": "Обява 2",
+                  "organizationName": "Моята организация",
+                  "more": "Ще бъде одобрен потребител 2",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 0,
+                  "applays": [
+                    {
+                      "id": 2,
+                      "username": "potrebitel1",
+                      "email": "pot1@",
+                      "name": "pot1",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": [
+                        {
+                          "id": 1,
+                          "title": "Обява 1",
+                          "organizationName": "Орг",
+                          "more": "Ще бъде одобрен потребител 1",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 1,
+                          "applays": [
+                            {
+                              "id": 2,
+                              "username": "potrebitel1",
+                              "email": "pot1@",
+                              "name": "pot1",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            }
+                          ],
+                          "likesUserId": [
+                            0,
+                            2
+                          ],
+                          "category": "Office",
+                          "type": "part-time"
+                        }
+                      ]
+                    }
+                  ],
+                  "likesUserId": [
+                    0
+                  ],
+                  "category": "Development",
+                  "type": "full time"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "username": "potrebitel3",
+              "email": "pot3",
+              "name": "pot3",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": [
+                {
+                  "id": 2,
+                  "title": "Обява 2",
+                  "organizationName": "Моята организация",
+                  "more": "Ще бъде одобрен потребител 2",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 2,
+                  "applays": [
+                    {
+                      "id": 3,
+                      "username": "potrebitel2",
+                      "email": "pot2@",
+                      "name": "pot2",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    },
+                    {
+                      "id": 4,
+                      "username": "potrebitel3",
+                      "email": "pot3",
+                      "name": "pot3",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    }
+                  ],
+                  "likesUserId": [
+                    0,
+                    3,
+                    4
+                  ],
+                  "category": "Development",
+                  "type": "full time",
+                  "ApprovedUser": {
+                    "id": 3,
+                    "username": "potrebitel2",
+                    "email": "pot2@",
+                    "name": "pot2",
+                    "password": "pot",
+                    "role": "Потребител",
+                    "applays": []
+                  }
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "username": "potrebitel2",
+              "email": "pot2@",
+              "name": "pot2",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": [
+                {
+                  "id": 2,
+                  "title": "Обява 2",
+                  "organizationName": "Моята организация",
+                  "more": "Ще бъде одобрен потребител 2",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 0,
+                  "applays": [
+                    {
+                      "id": 3,
+                      "username": "potrebitel2",
+                      "email": "pot2@",
+                      "name": "pot2",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    }
+                  ],
+                  "likesUserId": [
+                    0
+                  ],
+                  "category": "Development",
+                  "type": "full time"
+                },
+                {
+                  "id": 1,
+                  "title": "Обява 1",
+                  "organizationName": "Орг",
+                  "more": "Ще бъде одобрен потребител 1",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 2,
+                  "applays": [
+                    {
+                      "id": 2,
+                      "username": "potrebitel1",
+                      "email": "pot1@",
+                      "name": "pot1",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    },
+                    {
+                      "id": 3,
+                      "username": "potrebitel2",
+                      "email": "pot2@",
+                      "name": "pot2",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": [
+                        {
+                          "id": 2,
+                          "title": "Обява 2",
+                          "organizationName": "Моята организация",
+                          "more": "Ще бъде одобрен потребител 2",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 0,
+                          "applays": [
+                            {
+                              "id": 3,
+                              "username": "potrebitel2",
+                              "email": "pot2@",
+                              "name": "pot2",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            }
+                          ],
+                          "likesUserId": [
+                            0
+                          ],
+                          "category": "Development",
+                          "type": "full time"
+                        }
+                      ]
+                    }
+                  ],
+                  "likesUserId": [
+                    0,
+                    2,
+                    3
+                  ],
+                  "category": "Office",
+                  "type": "part-time"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "username": "potrebitel4",
+              "email": "pot4",
+              "name": "pot4",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": [
+                {
+                  "id": 1,
+                  "title": "Обява 1",
+                  "organizationName": "Орг",
+                  "more": "Ще бъде одобрен потребител 1",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 4,
+                  "applays": [
+                    {
+                      "id": 2,
+                      "username": "potrebitel1",
+                      "email": "pot1@",
+                      "name": "pot1",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    },
+                    {
+                      "id": 3,
+                      "username": "potrebitel2",
+                      "email": "pot2@",
+                      "name": "pot2",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": [
+                        {
+                          "id": 2,
+                          "title": "Обява 2",
+                          "organizationName": "Моята организация",
+                          "more": "Ще бъде одобрен потребител 2",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 0,
+                          "applays": [
+                            {
+                              "id": 3,
+                              "username": "potrebitel2",
+                              "email": "pot2@",
+                              "name": "pot2",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            }
+                          ],
+                          "likesUserId": [
+                            0
+                          ],
+                          "category": "Development",
+                          "type": "full time"
+                        }
+                      ]
+                    },
+                    {
+                      "id": 4,
+                      "username": "potrebitel3",
+                      "email": "pot3",
+                      "name": "pot3",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": [
+                        {
+                          "id": 2,
+                          "title": "Обява 2",
+                          "organizationName": "Моята организация",
+                          "more": "Ще бъде одобрен потребител 2",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 2,
+                          "applays": [
+                            {
+                              "id": 3,
+                              "username": "potrebitel2",
+                              "email": "pot2@",
+                              "name": "pot2",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            },
+                            {
+                              "id": 4,
+                              "username": "potrebitel3",
+                              "email": "pot3",
+                              "name": "pot3",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            }
+                          ],
+                          "likesUserId": [
+                            0,
+                            3,
+                            4
+                          ],
+                          "category": "Development",
+                          "type": "full time",
+                          "ApprovedUser": {
+                            "id": 3,
+                            "username": "potrebitel2",
+                            "email": "pot2@",
+                            "name": "pot2",
+                            "password": "pot",
+                            "role": "Потребител",
+                            "applays": []
+                          }
+                        },
+                        {
+                          "id": 3,
+                          "title": "Обява 3",
+                          "organizationName": "Организация",
+                          "more": "Ще бъде одобрен потребител 3",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 1,
+                          "applays": [
+                            {
+                              "id": 2,
+                              "username": "potrebitel1",
+                              "email": "pot1@",
+                              "name": "pot1",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": [
+                                {
+                                  "id": 1,
+                                  "title": "Обява 1",
+                                  "organizationName": "Орг",
+                                  "more": "Ще бъде одобрен потребител 1",
+                                  "userid": 1,
+                                  "status": "Активен",
+                                  "likes": 1,
+                                  "applays": [
+                                    {
+                                      "id": 2,
+                                      "username": "potrebitel1",
+                                      "email": "pot1@",
+                                      "name": "pot1",
+                                      "password": "pot",
+                                      "role": "Потребител",
+                                      "applays": []
+                                    }
+                                  ],
+                                  "likesUserId": [
+                                    0,
+                                    2
+                                  ],
+                                  "category": "Office",
+                                  "type": "part-time"
+                                },
+                                {
+                                  "id": 2,
+                                  "title": "Обява 2",
+                                  "organizationName": "Моята организация",
+                                  "more": "Ще бъде одобрен потребител 2",
+                                  "userid": 1,
+                                  "status": "Активен",
+                                  "likes": 0,
+                                  "applays": [
+                                    {
+                                      "id": 2,
+                                      "username": "potrebitel1",
+                                      "email": "pot1@",
+                                      "name": "pot1",
+                                      "password": "pot",
+                                      "role": "Потребител",
+                                      "applays": [
+                                        {
+                                          "id": 1,
+                                          "title": "Обява 1",
+                                          "organizationName": "Орг",
+                                          "more": "Ще бъде одобрен потребител 1",
+                                          "userid": 1,
+                                          "status": "Активен",
+                                          "likes": 1,
+                                          "applays": [
+                                            {
+                                              "id": 2,
+                                              "username": "potrebitel1",
+                                              "email": "pot1@",
+                                              "name": "pot1",
+                                              "password": "pot",
+                                              "role": "Потребител",
+                                              "applays": []
+                                            }
+                                          ],
+                                          "likesUserId": [
+                                            0,
+                                            2
+                                          ],
+                                          "category": "Office",
+                                          "type": "part-time"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "likesUserId": [
+                                    0
+                                  ],
+                                  "category": "Development",
+                                  "type": "full time"
+                                }
+                              ]
+                            },
+                            {
+                              "id": 4,
+                              "username": "potrebitel3",
+                              "email": "pot3",
+                              "name": "pot3",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": [
+                                {
+                                  "id": 2,
+                                  "title": "Обява 2",
+                                  "organizationName": "Моята организация",
+                                  "more": "Ще бъде одобрен потребител 2",
+                                  "userid": 1,
+                                  "status": "Активен",
+                                  "likes": 2,
+                                  "applays": [
+                                    {
+                                      "id": 3,
+                                      "username": "potrebitel2",
+                                      "email": "pot2@",
+                                      "name": "pot2",
+                                      "password": "pot",
+                                      "role": "Потребител",
+                                      "applays": []
+                                    },
+                                    {
+                                      "id": 4,
+                                      "username": "potrebitel3",
+                                      "email": "pot3",
+                                      "name": "pot3",
+                                      "password": "pot",
+                                      "role": "Потребител",
+                                      "applays": []
+                                    }
+                                  ],
+                                  "likesUserId": [
+                                    0,
+                                    3,
+                                    4
+                                  ],
+                                  "category": "Development",
+                                  "type": "full time",
+                                  "ApprovedUser": {
+                                    "id": 3,
+                                    "username": "potrebitel2",
+                                    "email": "pot2@",
+                                    "name": "pot2",
+                                    "password": "pot",
+                                    "role": "Потребител",
+                                    "applays": []
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "likesUserId": [
+                            0,
+                            4
+                          ],
+                          "category": "Development",
+                          "type": "remote"
+                        }
+                      ]
+                    },
+                    {
+                      "id": 5,
+                      "username": "potrebitel4",
+                      "email": "pot4",
+                      "name": "pot4",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    }
+                  ],
+                  "likesUserId": [
+                    0,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "category": "Office",
+                  "type": "part-time",
+                  "ApprovedUser": {
+                    "id": 2,
+                    "username": "potrebitel1",
+                    "email": "pot1@",
+                    "name": "pot1",
+                    "password": "pot",
+                    "role": "Потребител",
+                    "applays": []
+                  }
+                }
+              ]
+            }
+          ],
+          "likesUserId": [
+            0,
+            4
+          ],
+          "category": "Development",
+          "type": "remote",
+          "ApprovedUser": {
+            "id": 4,
+            "username": "potrebitel3",
+            "email": "pot3",
+            "name": "pot3",
+            "password": "pot",
+            "role": "Потребител",
+            "applays": [
+              {
+                "id": 2,
+                "title": "Обява 2",
+                "organizationName": "Моята организация",
+                "more": "Ще бъде одобрен потребител 2",
+                "userid": 1,
+                "status": "Активен",
+                "likes": 2,
+                "applays": [
+                  {
+                    "id": 3,
+                    "username": "potrebitel2",
+                    "email": "pot2@",
+                    "name": "pot2",
+                    "password": "pot",
+                    "role": "Потребител",
+                    "applays": []
+                  },
+                  {
+                    "id": 4,
+                    "username": "potrebitel3",
+                    "email": "pot3",
+                    "name": "pot3",
+                    "password": "pot",
+                    "role": "Потребител",
+                    "applays": []
+                  }
+                ],
+                "likesUserId": [
+                  0,
+                  3,
+                  4
+                ],
+                "category": "Development",
+                "type": "full time",
+                "ApprovedUser": {
+                  "id": 3,
+                  "username": "potrebitel2",
+                  "email": "pot2@",
+                  "name": "pot2",
+                  "password": "pot",
+                  "role": "Потребител",
+                  "applays": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "title": "Обява 2",
+          "organizationName": "Моята организация",
+          "more": "Ще бъде одобрен потребител 2",
+          "userid": 1,
+          "status": "Активен",
+          "likes": 3,
+          "applays": [
+            {
+              "id": 3,
+              "username": "potrebitel2",
+              "email": "pot2@",
+              "name": "pot2",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": []
+            },
+            {
+              "id": 4,
+              "username": "potrebitel3",
+              "email": "pot3",
+              "name": "pot3",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": []
+            },
+            {
+              "id": 5,
+              "username": "potrebitel4",
+              "email": "pot4",
+              "name": "pot4",
+              "password": "pot",
+              "role": "Потребител",
+              "applays": [
+                {
+                  "id": 1,
+                  "title": "Обява 1",
+                  "organizationName": "Орг",
+                  "more": "Ще бъде одобрен потребител 1",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 4,
+                  "applays": [
+                    {
+                      "id": 2,
+                      "username": "potrebitel1",
+                      "email": "pot1@",
+                      "name": "pot1",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    },
+                    {
+                      "id": 3,
+                      "username": "potrebitel2",
+                      "email": "pot2@",
+                      "name": "pot2",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": [
+                        {
+                          "id": 2,
+                          "title": "Обява 2",
+                          "organizationName": "Моята организация",
+                          "more": "Ще бъде одобрен потребител 2",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 0,
+                          "applays": [
+                            {
+                              "id": 3,
+                              "username": "potrebitel2",
+                              "email": "pot2@",
+                              "name": "pot2",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            }
+                          ],
+                          "likesUserId": [
+                            0
+                          ],
+                          "category": "Development",
+                          "type": "full time"
+                        }
+                      ]
+                    },
+                    {
+                      "id": 4,
+                      "username": "potrebitel3",
+                      "email": "pot3",
+                      "name": "pot3",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": [
+                        {
+                          "id": 2,
+                          "title": "Обява 2",
+                          "organizationName": "Моята организация",
+                          "more": "Ще бъде одобрен потребител 2",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 2,
+                          "applays": [
+                            {
+                              "id": 3,
+                              "username": "potrebitel2",
+                              "email": "pot2@",
+                              "name": "pot2",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            },
+                            {
+                              "id": 4,
+                              "username": "potrebitel3",
+                              "email": "pot3",
+                              "name": "pot3",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            }
+                          ],
+                          "likesUserId": [
+                            0,
+                            3,
+                            4
+                          ],
+                          "category": "Development",
+                          "type": "full time",
+                          "ApprovedUser": {
+                            "id": 3,
+                            "username": "potrebitel2",
+                            "email": "pot2@",
+                            "name": "pot2",
+                            "password": "pot",
+                            "role": "Потребител",
+                            "applays": []
+                          }
+                        },
+                        {
+                          "id": 3,
+                          "title": "Обява 3",
+                          "organizationName": "Организация",
+                          "more": "Ще бъде одобрен потребител 3",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 1,
+                          "applays": [
+                            {
+                              "id": 2,
+                              "username": "potrebitel1",
+                              "email": "pot1@",
+                              "name": "pot1",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": [
+                                {
+                                  "id": 1,
+                                  "title": "Обява 1",
+                                  "organizationName": "Орг",
+                                  "more": "Ще бъде одобрен потребител 1",
+                                  "userid": 1,
+                                  "status": "Активен",
+                                  "likes": 1,
+                                  "applays": [
+                                    {
+                                      "id": 2,
+                                      "username": "potrebitel1",
+                                      "email": "pot1@",
+                                      "name": "pot1",
+                                      "password": "pot",
+                                      "role": "Потребител",
+                                      "applays": []
+                                    }
+                                  ],
+                                  "likesUserId": [
+                                    0,
+                                    2
+                                  ],
+                                  "category": "Office",
+                                  "type": "part-time"
+                                },
+                                {
+                                  "id": 2,
+                                  "title": "Обява 2",
+                                  "organizationName": "Моята организация",
+                                  "more": "Ще бъде одобрен потребител 2",
+                                  "userid": 1,
+                                  "status": "Активен",
+                                  "likes": 0,
+                                  "applays": [
+                                    {
+                                      "id": 2,
+                                      "username": "potrebitel1",
+                                      "email": "pot1@",
+                                      "name": "pot1",
+                                      "password": "pot",
+                                      "role": "Потребител",
+                                      "applays": [
+                                        {
+                                          "id": 1,
+                                          "title": "Обява 1",
+                                          "organizationName": "Орг",
+                                          "more": "Ще бъде одобрен потребител 1",
+                                          "userid": 1,
+                                          "status": "Активен",
+                                          "likes": 1,
+                                          "applays": [
+                                            {
+                                              "id": 2,
+                                              "username": "potrebitel1",
+                                              "email": "pot1@",
+                                              "name": "pot1",
+                                              "password": "pot",
+                                              "role": "Потребител",
+                                              "applays": []
+                                            }
+                                          ],
+                                          "likesUserId": [
+                                            0,
+                                            2
+                                          ],
+                                          "category": "Office",
+                                          "type": "part-time"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "likesUserId": [
+                                    0
+                                  ],
+                                  "category": "Development",
+                                  "type": "full time"
+                                }
+                              ]
+                            },
+                            {
+                              "id": 4,
+                              "username": "potrebitel3",
+                              "email": "pot3",
+                              "name": "pot3",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": [
+                                {
+                                  "id": 2,
+                                  "title": "Обява 2",
+                                  "organizationName": "Моята организация",
+                                  "more": "Ще бъде одобрен потребител 2",
+                                  "userid": 1,
+                                  "status": "Активен",
+                                  "likes": 2,
+                                  "applays": [
+                                    {
+                                      "id": 3,
+                                      "username": "potrebitel2",
+                                      "email": "pot2@",
+                                      "name": "pot2",
+                                      "password": "pot",
+                                      "role": "Потребител",
+                                      "applays": []
+                                    },
+                                    {
+                                      "id": 4,
+                                      "username": "potrebitel3",
+                                      "email": "pot3",
+                                      "name": "pot3",
+                                      "password": "pot",
+                                      "role": "Потребител",
+                                      "applays": []
+                                    }
+                                  ],
+                                  "likesUserId": [
+                                    0,
+                                    3,
+                                    4
+                                  ],
+                                  "category": "Development",
+                                  "type": "full time",
+                                  "ApprovedUser": {
+                                    "id": 3,
+                                    "username": "potrebitel2",
+                                    "email": "pot2@",
+                                    "name": "pot2",
+                                    "password": "pot",
+                                    "role": "Потребител",
+                                    "applays": []
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "likesUserId": [
+                            0,
+                            4
+                          ],
+                          "category": "Development",
+                          "type": "remote"
+                        }
+                      ]
+                    },
+                    {
+                      "id": 5,
+                      "username": "potrebitel4",
+                      "email": "pot4",
+                      "name": "pot4",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": []
+                    }
+                  ],
+                  "likesUserId": [
+                    0,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "category": "Office",
+                  "type": "part-time",
+                  "ApprovedUser": {
+                    "id": 2,
+                    "username": "potrebitel1",
+                    "email": "pot1@",
+                    "name": "pot1",
+                    "password": "pot",
+                    "role": "Потребител",
+                    "applays": []
+                  }
+                },
+                {
+                  "id": 3,
+                  "title": "Обява 3",
+                  "organizationName": "Организация",
+                  "more": "Ще бъде одобрен потребител 3",
+                  "userid": 1,
+                  "status": "Активен",
+                  "likes": 1,
+                  "applays": [
+                    {
+                      "id": 2,
+                      "username": "potrebitel1",
+                      "email": "pot1@",
+                      "name": "pot1",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": [
+                        {
+                          "id": 1,
+                          "title": "Обява 1",
+                          "organizationName": "Орг",
+                          "more": "Ще бъде одобрен потребител 1",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 1,
+                          "applays": [
+                            {
+                              "id": 2,
+                              "username": "potrebitel1",
+                              "email": "pot1@",
+                              "name": "pot1",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            }
+                          ],
+                          "likesUserId": [
+                            0,
+                            2
+                          ],
+                          "category": "Office",
+                          "type": "part-time"
+                        },
+                        {
+                          "id": 2,
+                          "title": "Обява 2",
+                          "organizationName": "Моята организация",
+                          "more": "Ще бъде одобрен потребител 2",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 0,
+                          "applays": [
+                            {
+                              "id": 2,
+                              "username": "potrebitel1",
+                              "email": "pot1@",
+                              "name": "pot1",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": [
+                                {
+                                  "id": 1,
+                                  "title": "Обява 1",
+                                  "organizationName": "Орг",
+                                  "more": "Ще бъде одобрен потребител 1",
+                                  "userid": 1,
+                                  "status": "Активен",
+                                  "likes": 1,
+                                  "applays": [
+                                    {
+                                      "id": 2,
+                                      "username": "potrebitel1",
+                                      "email": "pot1@",
+                                      "name": "pot1",
+                                      "password": "pot",
+                                      "role": "Потребител",
+                                      "applays": []
+                                    }
+                                  ],
+                                  "likesUserId": [
+                                    0,
+                                    2
+                                  ],
+                                  "category": "Office",
+                                  "type": "part-time"
+                                }
+                              ]
+                            }
+                          ],
+                          "likesUserId": [
+                            0
+                          ],
+                          "category": "Development",
+                          "type": "full time"
+                        }
+                      ]
+                    },
+                    {
+                      "id": 4,
+                      "username": "potrebitel3",
+                      "email": "pot3",
+                      "name": "pot3",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": [
+                        {
+                          "id": 2,
+                          "title": "Обява 2",
+                          "organizationName": "Моята организация",
+                          "more": "Ще бъде одобрен потребител 2",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 2,
+                          "applays": [
+                            {
+                              "id": 3,
+                              "username": "potrebitel2",
+                              "email": "pot2@",
+                              "name": "pot2",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            },
+                            {
+                              "id": 4,
+                              "username": "potrebitel3",
+                              "email": "pot3",
+                              "name": "pot3",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            }
+                          ],
+                          "likesUserId": [
+                            0,
+                            3,
+                            4
+                          ],
+                          "category": "Development",
+                          "type": "full time",
+                          "ApprovedUser": {
+                            "id": 3,
+                            "username": "potrebitel2",
+                            "email": "pot2@",
+                            "name": "pot2",
+                            "password": "pot",
+                            "role": "Потребител",
+                            "applays": []
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": 3,
+                      "username": "potrebitel2",
+                      "email": "pot2@",
+                      "name": "pot2",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": [
+                        {
+                          "id": 2,
+                          "title": "Обява 2",
+                          "organizationName": "Моята организация",
+                          "more": "Ще бъде одобрен потребител 2",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 0,
+                          "applays": [
+                            {
+                              "id": 3,
+                              "username": "potrebitel2",
+                              "email": "pot2@",
+                              "name": "pot2",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            }
+                          ],
+                          "likesUserId": [
+                            0
+                          ],
+                          "category": "Development",
+                          "type": "full time"
+                        },
+                        {
+                          "id": 1,
+                          "title": "Обява 1",
+                          "organizationName": "Орг",
+                          "more": "Ще бъде одобрен потребител 1",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 2,
+                          "applays": [
+                            {
+                              "id": 2,
+                              "username": "potrebitel1",
+                              "email": "pot1@",
+                              "name": "pot1",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            },
+                            {
+                              "id": 3,
+                              "username": "potrebitel2",
+                              "email": "pot2@",
+                              "name": "pot2",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": [
+                                {
+                                  "id": 2,
+                                  "title": "Обява 2",
+                                  "organizationName": "Моята организация",
+                                  "more": "Ще бъде одобрен потребител 2",
+                                  "userid": 1,
+                                  "status": "Активен",
+                                  "likes": 0,
+                                  "applays": [
+                                    {
+                                      "id": 3,
+                                      "username": "potrebitel2",
+                                      "email": "pot2@",
+                                      "name": "pot2",
+                                      "password": "pot",
+                                      "role": "Потребител",
+                                      "applays": []
+                                    }
+                                  ],
+                                  "likesUserId": [
+                                    0
+                                  ],
+                                  "category": "Development",
+                                  "type": "full time"
+                                }
+                              ]
+                            }
+                          ],
+                          "likesUserId": [
+                            0,
+                            2,
+                            3
+                          ],
+                          "category": "Office",
+                          "type": "part-time"
+                        }
+                      ]
+                    },
+                    {
+                      "id": 5,
+                      "username": "potrebitel4",
+                      "email": "pot4",
+                      "name": "pot4",
+                      "password": "pot",
+                      "role": "Потребител",
+                      "applays": [
+                        {
+                          "id": 1,
+                          "title": "Обява 1",
+                          "organizationName": "Орг",
+                          "more": "Ще бъде одобрен потребител 1",
+                          "userid": 1,
+                          "status": "Активен",
+                          "likes": 4,
+                          "applays": [
+                            {
+                              "id": 2,
+                              "username": "potrebitel1",
+                              "email": "pot1@",
+                              "name": "pot1",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            },
+                            {
+                              "id": 3,
+                              "username": "potrebitel2",
+                              "email": "pot2@",
+                              "name": "pot2",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": [
+                                {
+                                  "id": 2,
+                                  "title": "Обява 2",
+                                  "organizationName": "Моята организация",
+                                  "more": "Ще бъде одобрен потребител 2",
+                                  "userid": 1,
+                                  "status": "Активен",
+                                  "likes": 0,
+                                  "applays": [
+                                    {
+                                      "id": 3,
+                                      "username": "potrebitel2",
+                                      "email": "pot2@",
+                                      "name": "pot2",
+                                      "password": "pot",
+                                      "role": "Потребител",
+                                      "applays": []
+                                    }
+                                  ],
+                                  "likesUserId": [
+                                    0
+                                  ],
+                                  "category": "Development",
+                                  "type": "full time"
+                                }
+                              ]
+                            },
+                            {
+                              "id": 4,
+                              "username": "potrebitel3",
+                              "email": "pot3",
+                              "name": "pot3",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": [
+                                {
+                                  "id": 2,
+                                  "title": "Обява 2",
+                                  "organizationName": "Моята организация",
+                                  "more": "Ще бъде одобрен потребител 2",
+                                  "userid": 1,
+                                  "status": "Активен",
+                                  "likes": 2,
+                                  "applays": [
+                                    {
+                                      "id": 3,
+                                      "username": "potrebitel2",
+                                      "email": "pot2@",
+                                      "name": "pot2",
+                                      "password": "pot",
+                                      "role": "Потребител",
+                                      "applays": []
+                                    },
+                                    {
+                                      "id": 4,
+                                      "username": "potrebitel3",
+                                      "email": "pot3",
+                                      "name": "pot3",
+                                      "password": "pot",
+                                      "role": "Потребител",
+                                      "applays": []
+                                    }
+                                  ],
+                                  "likesUserId": [
+                                    0,
+                                    3,
+                                    4
+                                  ],
+                                  "category": "Development",
+                                  "type": "full time",
+                                  "ApprovedUser": {
+                                    "id": 3,
+                                    "username": "potrebitel2",
+                                    "email": "pot2@",
+                                    "name": "pot2",
+                                    "password": "pot",
+                                    "role": "Потребител",
+                                    "applays": []
+                                  }
+                                },
+                                {
+                                  "id": 3,
+                                  "title": "Обява 3",
+                                  "organizationName": "Организация",
+                                  "more": "Ще бъде одобрен потребител 3",
+                                  "userid": 1,
+                                  "status": "Активен",
+                                  "likes": 1,
+                                  "applays": [
+                                    {
+                                      "id": 2,
+                                      "username": "potrebitel1",
+                                      "email": "pot1@",
+                                      "name": "pot1",
+                                      "password": "pot",
+                                      "role": "Потребител",
+                                      "applays": [
+                                        {
+                                          "id": 1,
+                                          "title": "Обява 1",
+                                          "organizationName": "Орг",
+                                          "more": "Ще бъде одобрен потребител 1",
+                                          "userid": 1,
+                                          "status": "Активен",
+                                          "likes": 1,
+                                          "applays": [
+                                            {
+                                              "id": 2,
+                                              "username": "potrebitel1",
+                                              "email": "pot1@",
+                                              "name": "pot1",
+                                              "password": "pot",
+                                              "role": "Потребител",
+                                              "applays": []
+                                            }
+                                          ],
+                                          "likesUserId": [
+                                            0,
+                                            2
+                                          ],
+                                          "category": "Office",
+                                          "type": "part-time"
+                                        },
+                                        {
+                                          "id": 2,
+                                          "title": "Обява 2",
+                                          "organizationName": "Моята организация",
+                                          "more": "Ще бъде одобрен потребител 2",
+                                          "userid": 1,
+                                          "status": "Активен",
+                                          "likes": 0,
+                                          "applays": [
+                                            {
+                                              "id": 2,
+                                              "username": "potrebitel1",
+                                              "email": "pot1@",
+                                              "name": "pot1",
+                                              "password": "pot",
+                                              "role": "Потребител",
+                                              "applays": [
+                                                {
+                                                  "id": 1,
+                                                  "title": "Обява 1",
+                                                  "organizationName": "Орг",
+                                                  "more": "Ще бъде одобрен потребител 1",
+                                                  "userid": 1,
+                                                  "status": "Активен",
+                                                  "likes": 1,
+                                                  "applays": [
+                                                    {
+                                                      "id": 2,
+                                                      "username": "potrebitel1",
+                                                      "email": "pot1@",
+                                                      "name": "pot1",
+                                                      "password": "pot",
+                                                      "role": "Потребител",
+                                                      "applays": []
+                                                    }
+                                                  ],
+                                                  "likesUserId": [
+                                                    0,
+                                                    2
+                                                  ],
+                                                  "category": "Office",
+                                                  "type": "part-time"
+                                                }
+                                              ]
+                                            }
+                                          ],
+                                          "likesUserId": [
+                                            0
+                                          ],
+                                          "category": "Development",
+                                          "type": "full time"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 4,
+                                      "username": "potrebitel3",
+                                      "email": "pot3",
+                                      "name": "pot3",
+                                      "password": "pot",
+                                      "role": "Потребител",
+                                      "applays": [
+                                        {
+                                          "id": 2,
+                                          "title": "Обява 2",
+                                          "organizationName": "Моята организация",
+                                          "more": "Ще бъде одобрен потребител 2",
+                                          "userid": 1,
+                                          "status": "Активен",
+                                          "likes": 2,
+                                          "applays": [
+                                            {
+                                              "id": 3,
+                                              "username": "potrebitel2",
+                                              "email": "pot2@",
+                                              "name": "pot2",
+                                              "password": "pot",
+                                              "role": "Потребител",
+                                              "applays": []
+                                            },
+                                            {
+                                              "id": 4,
+                                              "username": "potrebitel3",
+                                              "email": "pot3",
+                                              "name": "pot3",
+                                              "password": "pot",
+                                              "role": "Потребител",
+                                              "applays": []
+                                            }
+                                          ],
+                                          "likesUserId": [
+                                            0,
+                                            3,
+                                            4
+                                          ],
+                                          "category": "Development",
+                                          "type": "full time",
+                                          "ApprovedUser": {
+                                            "id": 3,
+                                            "username": "potrebitel2",
+                                            "email": "pot2@",
+                                            "name": "pot2",
+                                            "password": "pot",
+                                            "role": "Потребител",
+                                            "applays": []
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "likesUserId": [
+                                    0,
+                                    4
+                                  ],
+                                  "category": "Development",
+                                  "type": "remote"
+                                }
+                              ]
+                            },
+                            {
+                              "id": 5,
+                              "username": "potrebitel4",
+                              "email": "pot4",
+                              "name": "pot4",
+                              "password": "pot",
+                              "role": "Потребител",
+                              "applays": []
+                            }
+                          ],
+                          "likesUserId": [
+                            0,
+                            2,
+                            3,
+                            4,
+                            5
+                          ],
+                          "category": "Office",
+                          "type": "part-time",
+                          "ApprovedUser": {
+                            "id": 2,
+                            "username": "potrebitel1",
+                            "email": "pot1@",
+                            "name": "pot1",
+                            "password": "pot",
+                            "role": "Потребител",
+                            "applays": []
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "likesUserId": [
+                    0,
+                    4
+                  ],
+                  "category": "Development",
+                  "type": "remote",
+                  "ApprovedUser": {
+                    "id": 4,
+                    "username": "potrebitel3",
+                    "email": "pot3",
+                    "name": "pot3",
+                    "password": "pot",
+                    "role": "Потребител",
+                    "applays": [
+                      {
+                        "id": 2,
+                        "title": "Обява 2",
+                        "organizationName": "Моята организация",
+                        "more": "Ще бъде одобрен потребител 2",
+                        "userid": 1,
+                        "status": "Активен",
+                        "likes": 2,
+                        "applays": [
+                          {
+                            "id": 3,
+                            "username": "potrebitel2",
+                            "email": "pot2@",
+                            "name": "pot2",
+                            "password": "pot",
+                            "role": "Потребител",
+                            "applays": []
+                          },
+                          {
+                            "id": 4,
+                            "username": "potrebitel3",
+                            "email": "pot3",
+                            "name": "pot3",
+                            "password": "pot",
+                            "role": "Потребител",
+                            "applays": []
+                          }
+                        ],
+                        "likesUserId": [
+                          0,
+                          3,
+                          4
+                        ],
+                        "category": "Development",
+                        "type": "full time",
+                        "ApprovedUser": {
+                          "id": 3,
+                          "username": "potrebitel2",
+                          "email": "pot2@",
+                          "name": "pot2",
+                          "password": "pot",
+                          "role": "Потребител",
+                          "applays": []
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "likesUserId": [
+            0,
+            3,
+            4,
+            5
+          ],
+          "category": "Development",
+          "type": "full time",
+          "ApprovedUser": {
+            "id": 3,
+            "username": "potrebitel2",
+            "email": "pot2@",
+            "name": "pot2",
+            "password": "pot",
+            "role": "Потребител",
+            "applays": []
+          }
+        }
+      ]
+    }
+  ]
+}

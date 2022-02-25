@@ -1,0 +1,25 @@
+<section>
+  <h3>Потребител:</h3>
+  <div>
+    <a>Потребителско име: {{user.username}}</a>
+    <a>Име: {{user.name}}</a>
+    <a>Имейл: {{user.email}}</a>
+    <a>Роля: {{user.role}}</a>
+  </div>
+  <div>
+    <a [routerLink]="['/auth','users','edit',user.id]">
+      Редактирай
+    </a>
+    <button (click)="onDelete()">Изтрий</button>
+  </div>
+</section>
+<article *ngFor="let useraplays of user.applays; let i = index">
+  <p>Обява №:{{i+1}}</p>
+  <li>Заглавие: {{useraplays.title}}</li>
+  <li>Описание: {{useraplays.more}}</li>
+  <li>Организация: {{useraplays.organizationName}}</li>
+  <li *ngIf="useraplays.ApprovedUser">Вие сте:
+    <a *ngIf="useraplays.ApprovedUser.id==user.id">Одобрен</a>
+    <a *ngIf="useraplays.ApprovedUser.id!=user.id">Отхвърлен</a>
+  </li>
+</article>

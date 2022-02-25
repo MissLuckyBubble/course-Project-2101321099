@@ -1,0 +1,50 @@
+<h3>{{ ad.id ? 'Поправи обява' : 'Създай нова обява' }}</h3>
+<hr>
+<form  *ngIf="formGroup"
+       [formGroup]="formGroup" (ngSubmit)="onSubmit()">
+  <div class="formgroup">
+    <label for="title">Заглавие
+    </label>
+    <input type="text"
+           id="title"
+           formControlName="title">
+    <!-- formControlName = Imeto ot .ts oninit -->
+    <small *ngIf="titleFormControl?.touched &&
+                  titleFormControl?.invalid &&
+                  titleFormControl?.hasError('required')">
+      *This field is required!
+    </small>
+  </div>
+  <div>
+    <label for="organizationName">Име на организация
+    </label>
+    <input type="text"
+           id="organizationName"
+           formControlName="organizationName">
+  </div>
+
+  <div>
+    <label for="more">Описание
+    </label>
+    <input type="text"
+           id="more"
+           formControlName="more">
+  </div>
+  <div>
+    <label for="type">Вид обява:
+    </label>
+    <input type="text"
+           id="type"
+           formControlName="type">
+  </div>
+  <div>
+    <label for="category">Категория:
+    </label>
+    <input type="text"
+           id="category"
+           formControlName="category">
+  </div>
+  <div>
+    <input type="submit" [disabled]="!formGroup.valid" value="Save"/>
+  </div>
+</form>

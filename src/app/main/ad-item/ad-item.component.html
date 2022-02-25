@@ -1,0 +1,34 @@
+<article>
+  <h3>{{ad.title}}</h3>
+  <hr>
+  <p class="organizationName">
+    Име на организацията:{{ad.organizationName}}
+  </p>
+  <p class="more">
+    Описание:{{ad.more}}
+  </p>
+  <p>Вид обява:{{ad.type}}</p>
+  <p>Категория:{{ad.category}}</p>
+  <ul *ngIf="isOrganization">Кандидати:
+    <li *ngFor="let adaplays of ad.applays; let i = index">
+     <a class="bigger"> Кандидат №:{{i+1}}</a>
+      <a>Име: {{adaplays.name}}</a>
+      <a>Email: {{adaplays.email}}</a>
+      <div>
+      <button (click)="onApprove(adaplays,ad)">Одобри</button>
+      </div>
+    </li>
+  </ul>
+  <p *ngIf="ad.ApprovedUser">Одобрен потрелител:{{ad.ApprovedUser.name}}</p>
+  <p>Статус:{{ad.status}}</p>
+  <div *ngIf="this.isOrganization">
+    <p>Харесвания:{{ad.likes}}</p>
+    <a *ngIf="userid==ad.userid" [routerLink]="['/ads','edit',ad.id]">Промени</a>
+    <button *ngIf="userid==ad.userid" (click)="onDelete()">Изтрий</button>
+  </div>
+  <div *ngIf="!isOrganization">
+    <p>Харесвания:{{ad.likes}}</p>
+    <button *ngIf="ad.status=='Активен'" (click)="onLike()">Харесай</button>
+    <button *ngIf="ad.status=='Активен'" (click)="onApplay()">Кандидатствай</button>
+  </div>
+</article>

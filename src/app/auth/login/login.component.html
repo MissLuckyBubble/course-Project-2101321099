@@ -1,0 +1,32 @@
+<h3>Вход</h3>
+<hr>
+<p *ngIf="LoginMessage">{{LoginMessage}}</p>
+<div>
+  <form [formGroup]="formGroup" (ngSubmit)="onSubmit()">
+    <div>
+      <input type="text"
+             placeholder="Username"
+             formControlName="username">
+      <small *ngIf="usernameFormControl?.touched &&
+                  usernameFormControl?.hasError('required')">
+        *Моля въведете потребителско име!
+      </small>
+    </div>
+    <div>
+      <input type="password"
+             placeholder="Password"
+             formControlName="password">
+      <small *ngIf="passFormControl?.touched &&
+                  passFormControl?.hasError('required')">
+        *Моля въведете парола!
+      </small>
+    </div>
+    <div>
+      <input type="submit" value="Вход"/>
+    </div>
+    <div>
+      <a>Нямате регистрация?</a>
+      <a routerLink="/auth/register">Регистрация</a>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,20 @@
+<h3>Обяви за работа</h3>
+<hr>
+<div *ngIf="this.isOrganization">
+  <a  routerLink="/ads/create">Създайте нова обява</a>
+</div>
+<hr>
+<div *ngIf="Message" class="msg">{{Message}}</div>
+<div *ngIf="ApproveMessage" class="msg">{{ApproveMessage}}</div>
+<div *ngIf="LikeMessage" class="msg">{{LikeMessage}}</div>
+<section>
+  <div *ngIf="errorMessage">{{errorMessage}}</div>
+  <app-ad-item *ngFor="let ad of ads; let i = index"
+               [ad]="ad"
+               (adDeleted)="onAdDelete($event)"
+               (adLiked)="onAdLike($event)"
+               (adApplayed)="onAdApplay($event)"
+               (userApproved)="onUserApprove($event,ad)">
+  </app-ad-item>
+</section>
+

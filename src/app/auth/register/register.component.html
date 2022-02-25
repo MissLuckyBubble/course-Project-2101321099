@@ -1,0 +1,63 @@
+<h3>{{user.id?'Редактирай профил': 'Регистрация'}}</h3>
+<hr>
+<div>
+  <form *ngIf="formGroup"
+    [formGroup]="formGroup" (ngSubmit)="onSubmit()">
+    <div>
+      <input type="text"
+             placeholder="Потребителско име"
+             formControlName="username">
+      <small *ngIf="usernameFormControl?.touched &&
+                  usernameFormControl?.hasError('required')">
+        *Моля изберете потребителско име!
+      </small>
+    </div>
+    <div>
+      <input type="text"
+             formControlName="name"
+             placeholder="Име">
+    </div>
+
+    <div>
+      <input type="email" placeholder="E-mail" formControlName="email">
+      <small *ngIf="emailFormControl?.touched && emailFormControl?.hasError('required')"> *Моля въведете имайл</small>
+    </div>
+    <div>
+      <input type="password"
+             placeholder="Парола"
+             formControlName="password">
+      <small *ngIf="passFormControl?.touched &&
+                  passFormControl?.hasError('required')">
+        *Моля въведете парола!
+      </small>
+    </div>
+
+
+    <div *ngIf="!user.id" class="role">
+    <label for="role">Избери роля:</label>
+    <select id="role"
+            class="role" (change)="changeRole($event)"
+            formControlName="role">
+      <option *ngFor="let role of Roles" [ngValue]="role">{{role}}</option>
+    </select>
+      <small *ngIf="roleFormControl?.touched &&
+                  roleFormControl?.hasError('required')">
+        *Моля изберете роля!
+      </small>
+    </div>
+
+    <div *ngIf="!user.id">
+      <input type="submit"
+             value='Регистрация'/>
+    </div>
+    <div *ngIf="user.id">
+      <input type="submit"
+             value='Запази'/>
+    </div>
+
+    <div class="end" >
+      <a>Вече имате акаунт?</a>
+      <a routerLink="/auth/login">Вход</a>
+    </div>
+  </form>
+</div>

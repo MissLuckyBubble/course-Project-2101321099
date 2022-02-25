@@ -1,0 +1,6 @@
+<section>
+  <app-user *ngIf="user"
+            [user]="user"
+            (userDeleted)="onUserDelete($event)">
+  </app-user>
+</section>
